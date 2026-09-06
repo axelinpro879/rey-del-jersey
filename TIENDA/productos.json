@@ -477,44 +477,44 @@
       "categoria": "futbol"
     },
     {
-      "nombre": "Ferrari 2026 Oficial",
+      "nombre": "Ferrari 2026 ",
       "precio": "$550",
-      "img": "f1-1.jpeg",
+      "img": "https://driver1.com/cdn/shop/files/701238728001_pp_01_ferrari.webp?v=1771957454&width=900",
       "tipo": "actual",
       "categoria": "f1"
     },
     {
       "nombre": "Red Bull Racing 2026",
       "precio": "$550",
-      "img": "f1-2.jpeg",
+      "img": "https://driver1.com/cdn/shop/files/TM14189-NIGHTSKY-SURFTHEWEB_1.jpg?v=1768257994&width=900",
       "tipo": "actual",
       "categoria": "f1"
     },
     {
-      "nombre": "McLaren 2026 Oficial",
+      "nombre": "Mercedes F1 2026 ",
       "precio": "$550",
-      "img": "f1-3.jpeg",
+      "img": "https://driver1.com/cdn/shop/files/KE5325.webp?v=1771254114&width=900",
       "tipo": "actual",
       "categoria": "f1"
     },
     {
-      "nombre": "Lakers LeBron James Icon",
-      "precio": "$650",
-      "img": "nba-1.jpeg",
+      "nombre": "LA Lakers 26",
+      "precio": "$550",
+      "img": "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f41f0987-77b7-4dd2-ada2-321fff01b34c/LAL+MNK+DF+SWGMN+JSY+STM+25.png",
       "tipo": "actual",
       "categoria": "nba"
     },
     {
-      "nombre": "Warriors Curry Statement",
-      "precio": "$650",
-      "img": "nba-2.jpeg",
+      "nombre": "GS Warriors 22/23 local",
+      "precio": "$550",
+      "img": "https://www.nbastore.com.mx/medias/NB-DN2005-401-1.jpg?context=bWFzdGVyfGltYWdlc3wxNDM4MDN8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3hZeTlvTkRrdk1USXpOemswTkRneE5EYzVPVGd1YW5CbnwxNzk2MTkyZTRiOGY0OGE0YTViYmQxZmNhMTlkMjAxNWEwNTFlMTRmMzc2NmI3YjEyMGNiNGFkYTQ2NzRhNjVi",
       "tipo": "actual",
       "categoria": "nba"
     },
     {
       "nombre": "Bulls Jordan Retro 96/97",
-      "precio": "$650",
-      "img": "nba-3.jpeg",
+      "precio": "$550",
+      "img": "https://fanatics.frgimages.com/chicago-bulls/mens-mitchell-and-ness-michael-jordan-scarlet-chicago-bulls-1997/98-hardwood-classics-authentic-jersey_pi3902000_ff_3902287-1c1317b0ddf7fbe59314_full.jpg?_hv=2",
       "tipo": "retro",
       "categoria": "nba"
     }
