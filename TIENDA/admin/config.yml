@@ -1,7 +1,9 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: main   # cambia esto si tu rama principal se llama "master"
 
+# Las fotos que subas desde el panel se guardan en la raíz del sitio,
+# junto a las que ya tienes (1.jpeg, 2.jpeg, etc.)
 media_folder: ""
 public_folder: "/"
 
@@ -13,7 +15,7 @@ collections:
     files:
       - name: "catalogo"
         label: "Todos los productos"
-        file: "../productos.json"
+        file: "productos.json"
         fields:
           - label: "Jerseys"
             name: "jerseys"
@@ -34,8 +36,7 @@ collections:
               - label: "Tipo"
                 name: "tipo"
                 widget: "select"
-                condition: "fields.categoria == 'futbol'"
-                hint: "Solo para Fútbol: Define si es Actual o Retro"
+                hint: "Define el precio tachado que se muestra (Actual o Retro). Para F1/NBA solo afecta ese precio anterior, no crea subfiltro."
                 options:
                   - { label: "Actual", value: "actual" }
                   - { label: "Retro", value: "retro" }
