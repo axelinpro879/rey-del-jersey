@@ -1,0 +1,11 @@
+{
+  "jerseys": [
+    {
+      "nombre": "Borussia Dortmund 26/27 local",
+      "precio": "$450",
+      "img": "https://com-tradebyte-core-tbone-media-live.s3.eu-central-1.amazonaws.com/media/1775/94965-62da355905166.jpg",
+      "categoria": "futbol",
+      "tipo": "actual"
+    }
+  ]
+}
