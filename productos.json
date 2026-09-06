@@ -1,0 +1,11 @@
+{
+  "jerseys": [
+    {
+      "nombre": "Mercedes f1 26/27 blanca",
+      "precio": "$550",
+      "img": "https://driver1.com/cdn/shop/files/KE5324.webp?v=1771254114&width=900",
+      "categoria": "f1",
+      "tipo": "retro"
+    }
+  ]
+}
