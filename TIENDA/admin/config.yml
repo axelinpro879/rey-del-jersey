@@ -1,0 +1,42 @@
+backend:
+  name: git-gateway
+  branch: main   # cambia esto si tu rama principal se llama "master"
+
+# Las fotos que subas desde el panel se guardan dentro de TIENDA,
+# junto a las que ya tienes (1.jpeg, 2.jpeg, etc.)
+media_folder: "TIENDA"
+public_folder: "/"
+
+locale: "es"
+
+collections:
+  - name: "productos"
+    label: "Catálogo de Jerseys"
+    files:
+      - name: "catalogo"
+        label: "Todos los productos"
+        file: "TIENDA/productos.json"
+        fields:
+          - label: "Jerseys"
+            name: "jerseys"
+            widget: "list"
+            label_singular: "Jersey"
+            summary: "{{nombre}} — {{categoria}}"
+            fields:
+              - { label: "Nombre", name: "nombre", widget: "string", hint: "Ej: Real Madrid 26/27 local" }
+              - { label: "Precio", name: "precio", widget: "string", hint: "Ej: $450 (incluye el símbolo $)" }
+              - { label: "Foto", name: "img", widget: "image", hint: "Sube la foto del jersey" }
+              - label: "Categoría"
+                name: "categoria"
+                widget: "select"
+                options:
+                  - { label: "Fútbol", value: "futbol" }
+                  - { label: "F1", value: "f1" }
+                  - { label: "NBA", value: "nba" }
+              - label: "Tipo"
+                name: "tipo"
+                widget: "select"
+                hint: "Define el precio tachado que se muestra (Actual o Retro). Para F1/NBA solo afecta ese precio anterior, no crea subfiltro."
+                options:
+                  - { label: "Actual", value: "actual" }
+                  - { label: "Retro", value: "retro" }
