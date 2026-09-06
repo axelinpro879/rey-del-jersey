@@ -772,5 +772,17 @@
 
         cargarProductos();
     </script>
+    <!-- Detecta el link de invitación/confirmación de Netlify Identity -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", function (user) {});
+            // Si el link trae un token de invitación/recuperación en la URL,
+            // el widget abre automáticamente el formulario para crear la contraseña.
+            window.netlifyIdentity.on("login", function () {
+                window.location.href = "/admin/";
+            });
+        }
+    </script>
 </body>
 </html>
