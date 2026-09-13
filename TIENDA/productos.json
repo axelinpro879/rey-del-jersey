@@ -479,42 +479,126 @@
   ],
   "f1": [
     {
-      "nombre": "Ferrari 2026 Oficial",
+      "nombre": "Mercedes 2025 Mecanicos",
       "precio": "$550",
-      "img": "f1-1.jpeg",
-      "equipo": "ferrari"
+      "img": "https://pitshop.mx/cdn/shop/files/ProductosPitshop-2025-06-02T211056.165.jpg?v=1748920019",
+      "equipo": "mercedes"
     },
     {
       "nombre": "McLaren 2026 Oficial",
       "precio": "$550",
-      "img": "f1-3.jpeg",
+      "img": "https://driver1.com/cdn/shop/files/701241089001_pp_01_mclaren.webp?v=1775068429&width=1400",
       "equipo": "mclaren"
     },
     {
       "nombre": "Red Bull Racing 2026",
       "precio": "$550",
-      "img": "f1-2.jpeg",
+      "img": "https://images.footballfanatics.com/red-bull-racing/oracle-red-bull-racing-2026-team-set-up-t-shirt_ss5_p-203284843+pv-3+u-ammjc73wpeeyuszjqkks+v-vlow3wznuudvfa1rlm7t.jpg?_hv=2&w=1018",
       "equipo": "red_bull"
+    },
+    {
+      "nombre": "Mercedes 2026 Negra",
+      "precio": "$550",
+      "img": "https://driver1.com/cdn/shop/files/KE5325.webp?v=1771254114&width=1200",
+      "equipo": "mercedes"
+    },
+    {
+      "nombre": "Cadillac 2026 Negra",
+      "precio": "$550",
+      "img": "https://i0.wp.com/formulaentreamigos.com/wp-content/uploads/2026/02/3-1.png?fit=1080%2C1080&ssl=1",
+      "equipo": "cadillac"
+    },
+    {
+      "nombre": "Ferrari 2026 Rojo",
+      "precio": "$550",
+      "img": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/I/61vOEC-prcL._AC_SX679_.jpg",
+      "equipo": "ferrari"
+    },
+    {
+      "nombre": "Aston Martin 2026 Oficial",
+      "precio": "$550",
+      "img": "https://images.puma.com/image/upload/f_auto,q_auto,w_2000,b_rgb:FAFAFA/global/713889/01/fnd/MEX/fmt/png",
+      "equipo": "aston_martin"
+    },
+    {
+      "nombre": "Alpine 2023 Negra",
+      "precio": "$550",
+      "img": "https://images.footballfanatics.com/alpine/bwt-alpine-f1-team-2023-t-shirt-black_ss4_p-13356049+pv-1+u-ard4u1pbo648p8gq5tyj+v-684bd93f105849f3bec978c1ba5fdceb.jpg?_hv=2&w=1018",
+      "equipo": "alpine"
+    },
+    {
+      "nombre": "Audi 2026 Oficial",
+      "precio": "$550",
+      "img": "https://www.innovasport.com/medias/1200Wx1200H-NEW-media-gallery-000000000000394194-03-20260128121212.jpg?context=bWFzdGVyfGltYWdlc3w5NjQwMnxpbWFnZS9qcGVnfGFEZGhMMmhtTlM4eE5qVTBPVGc0TmprMU1UUTFOQzh4TWpBd1YzZ3hNakF3U0Y5T1JWZGZiV1ZrYVdGZloyRnNiR1Z5ZVY4d01EQXdNREF3TURBd01EQXpPVFF4T1RSZk1ETmZNakF5TmpBeE1qZ3hNakV5TVRJdWFuQm58YjExMTQwM2RiNzJlNWUzNDMxZWNmMmIyMTNiYzFkMmM1YzY0NTEzOGUxYmEyNmQ3NTk3Yzg3YWI2NzFhYzhjMw",
+      "equipo": "audi"
+    },
+    {
+      "nombre": "VCARB 2026 Oficial",
+      "precio": "$550",
+      "img": "https://images.footballfanatics.com/vcarb/vcarb-hugo-2026-team-t-shirt_ss5_p-203374210+u-ncfnx9bi7cenxylgjnwh+v-etuot7huy5fhhsekvuzj.jpg?_hv=2&w=532",
+      "equipo": "racing_bulls"
+    },
+    {
+      "nombre": "Williams 2026 Oficial",
+      "precio": "$550",
+      "img": "https://images.footballfanatics.com/williams-racing/williams-racing-new-era-replica-tech-t-shirt-navy-kids_ss5_p-203632223+u-7vanq5rwy0rkcrdo83o8+v-mntncrfscmccpr5jrnfl.jpg?_hv=2&w=532",
+      "equipo": "williams"
+    },
+    {
+      "nombre": "Mercedes 2026 Blanca",
+      "precio": "$550",
+      "img": "https://driver1.com/cdn/shop/files/KE5324.webp?v=1771254114&width=1200",
+      "equipo": "mercedes"
+    },
+    {
+      "img": "https://fanabox.com/cdn/shop/files/2025ScuderiaFerrariF1_HPTeamMiamiGPMen_sT-Shirt-White_5.jpg?v=1774753494&width=1080",
+      "nombre": "Ferrari 2025 Blanca",
+      "precio": "$550",
+      "equipo": "ferrari"
+    },
+    {
+      "nombre": "Cadillac Polo 2026 Blanca",
+      "precio": "$650",
+      "img": "https://scuderiaf.com/cdn/shop/files/PoloCadillacF1Oficial2026Blanco_1.png?v=1771052779",
+      "equipo": "cadillac"
+    },
+    {
+      "img": "https://images.footballfanatics.com/red-bull-racing/red-bull-racing-japan-special-edition-replica-track-polo_ss5_p-202681566+u-udzltpmydkseqjr3113n+v-zeaxnrslktpnoceagdku.jpg?_hv=2&w=600",
+      "nombre": "Red Bull 2025-GP Susuka",
+      "precio": "$650",
+      "equipo": "red_bull"
+    },
+    {
+      "nombre": "Ferrari 2023-GP Monza",
+      "precio": "$600",
+      "img": "https://www.fuelforfans.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw8c1f5520/images/large/701227711001_pp_01_scuderia-ferrari.jpg?sw=800&sh=800&sm=fit",
+      "equipo": "ferrari"
     }
   ],
   "nba": [
     {
-      "nombre": "Bulls Jordan Retro 96/97",
-      "precio": "$650",
-      "img": "nba-3.jpeg",
+      "nombre": "Bulls Jordan Retro 98",
+      "precio": "$550",
+      "img": "https://fanatics.frgimages.com/chicago-bulls/mens-mitchell-and-ness-michael-jordan-scarlet-chicago-bulls-1997/98-hardwood-classics-authentic-jersey_pi3902000_ff_3902287-1c1317b0ddf7fbe59314_full.jpg?_hv=2&w=600",
       "equipo": "bulls"
     },
     {
       "nombre": "Lakers LeBron James Icon",
-      "precio": "$650",
-      "img": "nba-1.jpeg",
+      "precio": "$550",
+      "img": "https://fanatics.frgimages.com/los-angeles-lakers/mens-nike-lebron-james-gold-los-angeles-lakers-authentic-jersey-icon-edition_ss5_p-200040773+pv-1+u-qgc2cv6cqicxemff0jsi+v-hhzjauv6uv9oppcc5uj5.jpg?_hv=2&w=1018",
       "equipo": "lakers"
     },
     {
       "nombre": "Warriors Curry Statement",
-      "precio": "$650",
-      "img": "nba-2.jpeg",
+      "precio": "$550",
+      "img": "https://www.nbastore.com.mx/medias/1200Wx1200H-NEW-media-gallery-000000000000390843-06-20251203101501.jpg?context=bWFzdGVyfGltYWdlc3wxMDIyMjB8aW1hZ2UvanBlZ3xhREk1TDJneE55OHhOVGt5TVRRNE9EYzRPVFV6TkM4eE1qQXdWM2d4TWpBd1NGOU9SVmRmYldWa2FXRmZaMkZzYkdWeWVWOHdNREF3TURBd01EQXdNREF6T1RBNE5ETmZNRFpmTWpBeU5URXlNRE14TURFMU1ERXVhbkJufDEwZWI5YTQ1NzIzYzBkNDMyMjk0ZTQxYzY2ZWZjN2VlMzEwNzk4MGY5YjMwOTJmMjQ5N2YxMzljNGNlMDRkOTA",
       "equipo": "warriors"
+    },
+    {
+      "nombre": "PROXIMAMENTE",
+      "precio": "$0",
+      "img": "https://www.shutterstock.com/image-vector/rubber-vector-stamp-spanish-word-260nw-2647701485.jpg",
+      "equipo": "hawks"
     }
   ]
 }
