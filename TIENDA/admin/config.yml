@@ -26,8 +26,12 @@ collections:
             summary: "{{nombre}} — {{fields.equipo}}"
             fields:
               - { label: "Nombre", name: "nombre", widget: "string", hint: "Ej: Real Madrid 26/27 Local" }
-              - { label: "Precio", name: "precio", widget: "string", hint: "Ej: $450 (incluye el símbolo $)" }
-              - { label: "Foto", name: "img", widget: "image", hint: "Sube la foto del jersey" }
+              - { label: "Precio (jugador)", name: "precio", widget: "string", hint: "Precio de la versión jugador, con $. El precio de afición se calcula solo restando $100 (ej: $450 -> $350-$450)." }
+              - label: "Fotos"
+                name: "img"
+                widget: "list"
+                hint: "Sube 1 o más fotos del jersey. La primera es la que se ve en el catálogo; el resto aparece como galería al abrir el producto."
+                field: { label: "Foto", name: "foto", widget: "image" }
               - label: "Liga / selección"
                 name: "liga"
                 widget: "select"
@@ -63,8 +67,12 @@ collections:
             summary: "{{nombre}}"
             fields:
               - { label: "Nombre", name: "nombre", widget: "string", hint: "Ej: Ferrari 2026 Oficial" }
-              - { label: "Precio", name: "precio", widget: "string", hint: "Ej: $550 (incluye el símbolo $)" }
-              - { label: "Foto", name: "img", widget: "image", hint: "Sube la foto de la playera/uniforme" }
+              - { label: "Precio (jugador)", name: "precio", widget: "string", hint: "Precio de la versión jugador, con $. El precio de afición se calcula solo restando $100 (ej: $550 -> $450-$550)." }
+              - label: "Fotos"
+                name: "img"
+                widget: "list"
+                hint: "Sube 1 o más fotos de la playera/uniforme. La primera es la que se ve en el catálogo; el resto aparece como galería al abrir el producto."
+                field: { label: "Foto", name: "foto", widget: "image" }
               - label: "Escudería"
                 name: "equipo"
                 widget: "select"
@@ -90,8 +98,12 @@ collections:
             summary: "{{nombre}}"
             fields:
               - { label: "Nombre", name: "nombre", widget: "string", hint: "Ej: Lakers LeBron James Icon" }
-              - { label: "Precio", name: "precio", widget: "string", hint: "Ej: $650 (incluye el símbolo $)" }
-              - { label: "Foto", name: "img", widget: "image", hint: "Sube la foto de la jersey" }
+              - { label: "Precio (jugador)", name: "precio", widget: "string", hint: "Precio de la versión jugador, con $. El precio de afición se calcula solo restando $100 (ej: $650 -> $550-$650)." }
+              - label: "Fotos"
+                name: "img"
+                widget: "list"
+                hint: "Sube 1 o más fotos de la jersey. La primera es la que se ve en el catálogo; el resto aparece como galería al abrir el producto."
+                field: { label: "Foto", name: "foto", widget: "image" }
               - label: "Equipo"
                 name: "equipo"
                 widget: "select"

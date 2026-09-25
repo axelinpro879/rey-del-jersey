@@ -629,7 +629,10 @@
 
     .fab-whatsapp, .fab-dark, .fab-instagram {
         position: fixed;
-        bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+        /* Elevados lo suficiente para no quedar detrás/encima del badge
+           "Powered by Netlify" (vive en la esquina inferior derecha en
+           TODOS los anchos de pantalla, no solo en móvil) */
+        bottom: calc(74px + env(safe-area-inset-bottom, 0px));
         width: 46px;
         height: 46px;
         border-radius: 50%;
@@ -667,7 +670,7 @@
         .fab-whatsapp, .fab-dark, .fab-instagram {
             width: 44px;
             height: 44px;
-            bottom: calc(64px + env(safe-area-inset-bottom, 0px));
+            bottom: calc(70px + env(safe-area-inset-bottom, 0px));
         }
         .fab-instagram { right: 14px; }
         .fab-whatsapp { right: 122px; }
@@ -898,10 +901,8 @@
     .precio-anterior {
         font-family: var(--font-mono);
         font-size: 0.82rem;
-        color: var(--rebaja);
-        text-decoration: line-through;
-        text-decoration-thickness: 1.5px;
-        opacity: 0.85;
+        color: var(--muted);
+        opacity: 0.9;
     }
 
     .precio {
@@ -909,6 +910,29 @@
         font-weight: 800;
         font-size: 1.4rem;
         color: var(--acento, var(--navy));
+    }
+
+    .precio-nota {
+        font-family: var(--font-mono);
+        font-size: 0.62rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin-top: 3px;
+    }
+
+    .foto-count {
+        position: absolute;
+        bottom: 8px;
+        left: 8px;
+        background: rgba(11,13,20,0.72);
+        color: var(--paper);
+        font-family: var(--font-mono);
+        font-size: 0.62rem;
+        letter-spacing: 0.04em;
+        padding: 3px 8px;
+        border-radius: 999px;
+        z-index: 2;
     }
 
     .item-info-bottom {
@@ -1045,6 +1069,29 @@
 
     .close-btn:active { transform: scale(0.88); }
 
+    .modal-thumbs {
+        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 14px;
+        max-width: 90%;
+    }
+
+    .modal-thumb {
+        width: 46px;
+        height: 46px;
+        object-fit: cover;
+        border-radius: 6px;
+        cursor: pointer;
+        opacity: 0.55;
+        border: 2px solid transparent;
+        transition: opacity 0.2s var(--spring), border-color 0.2s var(--spring);
+    }
+
+    .modal-thumb:hover { opacity: 0.85; }
+    .modal-thumb.active { opacity: 1; border-color: var(--paper); }
+
     .modal-info {
         color: var(--paper);
         text-align: center;
@@ -1063,6 +1110,8 @@
     .modal-info .precio { font-size: 1.6rem; color: var(--paper); }
 
     .modal-info .precio-anterior { font-size: 1rem; }
+
+    .modal-info .precio-nota { color: var(--paper); opacity: 0.75; }
 
     /* ---------- TABS DEL MODAL (Foto / Info de pedido) ---------- */
 
@@ -1377,12 +1426,14 @@
                     <button onclick="botonZoom(-1)" title="Alejar">&minus;</button>
                 </div>
             </div>
+            <div class="modal-thumbs" id="modalThumbs"></div>
             <div class="modal-info">
                 <div class="nombre" id="modalNombre"></div>
                 <div class="precio-wrap">
                     <span class="precio-anterior" id="modalPrecioAnterior"></span>
                     <span class="precio" id="modalPrecio"></span>
                 </div>
+                <div class="precio-nota" id="modalPrecioNota"></div>
                 <div class="zoom-hint">Rueda o pellizca para zoom · doble clic para restablecer</div>
             </div>
         </div>
@@ -1451,11 +1502,21 @@
     <footer>Rey del Jersey · Hecho para quienes viven el fútbol</footer>
 
     <script>
-        // Precio "antes de rebaja": siempre $100 MXN más que el precio actual del producto
-        function calcularPrecioAnterior(precioStr) {
+        // El precio guardado en el panel es el precio de "jugador" (versión réplica).
+        // El de "afición" se calcula automáticamente restando $100 MXN, para no
+        // tener que cargar dos precios a mano por cada jersey.
+        function calcularRangoPrecio(precioStr) {
             const numero = parseInt(String(precioStr).replace(/[^0-9]/g, ""), 10);
-            if (isNaN(numero)) return "";
-            return "$" + (numero + 100);
+            if (isNaN(numero)) return { aficion: precioStr, jugador: precioStr };
+            const aficion = Math.max(numero - 100, 0);
+            return { aficion: "$" + aficion, jugador: "$" + numero };
+        }
+
+        // ---- Fotos del producto (admite 1 o varias) ----
+        function obtenerFotos(j) {
+            if (Array.isArray(j.img)) return j.img.filter(Boolean);
+            if (typeof j.img === "string" && j.img) return [j.img];
+            return [];
         }
 
         // ---- Modo oscuro ----
@@ -1509,7 +1570,9 @@
             const j = jerseys.find(x => (x.nombre + x.precio) === idJersey);
             if (!j) return;
             const texto = "Mira este jersey: " + j.nombre + " - " + j.precio + " en Rey del Jersey";
-            const urlImagen = new URL(j.img, window.location.href).href;
+            const fotos = obtenerFotos(j);
+            if (!fotos.length) return;
+            const urlImagen = new URL(fotos[0], window.location.href).href;
             if (navigator.share) {
                 fetch(urlImagen).then(r => r.blob()).then(blob => {
                     const archivo = new File([blob], "jersey.jpg", { type: blob.type || "image/jpeg" });
@@ -1663,7 +1726,9 @@
             const equipos = jerseys
                 .filter(j => j.categoria === "futbol")
                 .filter(j => subFiltroActivo === "todos" || j.subcategoria === subFiltroActivo)
-                .map(j => j.equipo)
+                // .trim() evita que un espacio de más al escribir el equipo en el
+                // panel (ej. "Real Madrid " vs "Real Madrid") cree una entrada duplicada
+                .map(j => (j.equipo || "").trim())
                 .filter(Boolean);
             const unicos = Array.from(new Set(equipos)).sort((a, b) => a.localeCompare(b, "es"));
             let html = '<option value="todos">Todos los equipos</option>';
@@ -1696,12 +1761,40 @@
         function pasaFiltros(j) {
             if (categoriaActiva !== "todos" && j.categoria !== categoriaActiva) return false;
             if (subFiltroActivo !== "todos" && j.subcategoria !== subFiltroActivo) return false;
-            if (categoriaActiva === "futbol" && equipoFutbolActivo !== "todos" && j.equipo !== equipoFutbolActivo) return false;
+            if (categoriaActiva === "futbol" && equipoFutbolActivo !== "todos" && (j.equipo || "").trim() !== equipoFutbolActivo) return false;
             if (terminoBusqueda && !normalizar(j.nombre).includes(normalizar(terminoBusqueda))) return false;
             return true;
         }
 
-        function abrirModal(jersey, evt) {
+        let fotosModalActuales = [];
+        let fotoModalIndex = 0;
+
+        function mostrarFotoModal(i) {
+            if (!fotosModalActuales.length) return;
+            fotoModalIndex = Math.max(0, Math.min(i, fotosModalActuales.length - 1));
+            document.getElementById("modalImg").src = fotosModalActuales[fotoModalIndex];
+            document.querySelectorAll("#modalThumbs .modal-thumb").forEach((el, idx) => {
+                el.classList.toggle("active", idx === fotoModalIndex);
+            });
+            resetZoom();
+        }
+
+        function renderModalThumbs() {
+            const cont = document.getElementById("modalThumbs");
+            if (fotosModalActuales.length < 2) {
+                cont.innerHTML = "";
+                cont.style.display = "none";
+                return;
+            }
+            cont.style.display = "flex";
+            cont.innerHTML = fotosModalActuales.map((src, idx) =>
+                '<img class="modal-thumb' + (idx === 0 ? ' active' : '') + '" src="' + src + '" onclick="mostrarFotoModal(' + idx + ')" alt="">'
+            ).join("");
+        }
+
+        function abrirModal(idJersey, evt) {
+            const jersey = jerseys.find(x => (x.nombre + x.precio) === idJersey);
+            if (!jersey) return;
             // Ancla el punto de origen del modal a la tarjeta que se tocó,
             // para que la imagen parezca "crecer" desde ahí, no aparecer en el centro
             const origenEl = evt ? evt.currentTarget : null;
@@ -1711,13 +1804,16 @@
                 const cy = rect.top + rect.height / 2;
                 document.getElementById("modalContent").style.transformOrigin = cx + "px " + cy + "px";
             }
+            fotosModalActuales = obtenerFotos(jersey);
             document.getElementById("modal").classList.add("active");
-            document.getElementById("modalImg").src = jersey.img;
             document.getElementById("modalNombre").textContent = jersey.nombre;
-            document.getElementById("modalPrecio").textContent = jersey.precio;
-            document.getElementById("modalPrecioAnterior").textContent = calcularPrecioAnterior(jersey.precio);
+            const rango = calcularRangoPrecio(jersey.precio);
+            document.getElementById("modalPrecio").textContent = rango.aficion + "–" + rango.jugador;
+            document.getElementById("modalPrecioAnterior").textContent = "";
+            document.getElementById("modalPrecioNota").textContent = "Afición · Jugador";
+            renderModalThumbs();
+            mostrarFotoModal(0);
             cambiarTabModal("foto");
-            resetZoom();
         }
 
         function cambiarTabModal(tab) {
@@ -1741,28 +1837,34 @@
                 numero++;
                 if (pasaFiltros(j)) {
                     coincidencias++;
-                    const anterior = calcularPrecioAnterior(j.precio);
+                    const rango = calcularRangoPrecio(j.precio);
+                    const fotos = obtenerFotos(j);
+                    const fotoPrincipal = fotos[0] || "";
                     const tag = "Nº " + String(numero).padStart(2, "0");
                     const delay = Math.min(numero * 0.025, 0.5);
                     const idJersey = j.nombre + j.precio;
+                    const idJerseyEscapado = idJersey.replace(/'/g, "\\'");
                     const favActivo = esFavorito(idJersey) ? "activo" : "";
                     const corazon = esFavorito(idJersey) ? "♥" : "♡";
-                    html += '<div class="item" style="animation-delay:' + delay + 's" onclick="abrirModal({img: \'' + j.img + '\', nombre: \'' + j.nombre + '\', precio: \'' + j.precio + '\'}, event)">';
+                    html += '<div class="item" style="animation-delay:' + delay + 's" onclick="abrirModal(\'' + idJerseyEscapado + '\', event)">';
                     html += '<div class="item-img-wrap">';
-                    html += '<img src="' + j.img + '" alt="' + j.nombre + '">';
+                    html += '<img src="' + fotoPrincipal + '" alt="' + j.nombre + '">';
                     html += '<span class="squad-tag">' + tag + '</span>';
                     if (j.masVendido) {
                         html += '<span class="bestseller-tag">Más vendido</span>';
                     }
-                    html += '<button class="fav-btn ' + favActivo + '" onclick="event.stopPropagation(); alternarFavorito(\'' + idJersey.replace(/'/g, "\\'") + '\', this)" aria-label="Guardar en favoritos">' + corazon + '</button>';
+                    if (fotos.length > 1) {
+                        html += '<span class="foto-count">📷 ' + fotos.length + '</span>';
+                    }
+                    html += '<button class="fav-btn ' + favActivo + '" onclick="event.stopPropagation(); alternarFavorito(\'' + idJerseyEscapado + '\', this)" aria-label="Guardar en favoritos">' + corazon + '</button>';
                     html += '<span class="item-vista">Ver detalle</span>';
                     html += '</div>';
                     html += '<div class="item-info">';
                     html += '<div class="nombre">' + j.nombre + '</div>';
                     html += '<div class="precio-wrap">';
-                    html += '<span class="precio-anterior">' + anterior + '</span>';
-                    html += '<span class="precio">' + j.precio + '</span>';
+                    html += '<span class="precio">' + rango.aficion + '&ndash;' + rango.jugador + '</span>';
                     html += '</div>';
+                    html += '<div class="precio-nota">Afición &middot; Jugador</div>';
                     html += '<div class="item-info-bottom">';
                     html += '<button class="compartir-btn" onclick="compartirProducto(\'' + idJersey.replace(/'/g, "\\'") + '\', event)">↗ Compartir</button>';
                     html += '</div>';

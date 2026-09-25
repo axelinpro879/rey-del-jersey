@@ -3,699 +3,899 @@
     {
       "nombre": "Bayern Munich 26/27 Local",
       "precio": "$450",
-      "img": "7.jpeg",
+      "img": [
+        "7.jpeg"
+      ],
       "liga": "alemania",
       "equipo": "Bayern Munich"
     },
     {
       "nombre": "Bayern Munich 26/27 Visitante",
       "precio": "$450",
-      "img": "31.jpeg",
+      "img": [
+        "31.jpeg"
+      ],
       "liga": "alemania",
       "equipo": "Bayern Munich"
     },
     {
       "nombre": "Borussia Dortmund 26/27 Visitante",
       "precio": "$450",
-      "img": "32.jpeg",
+      "img": [
+        "32.jpeg"
+      ],
       "liga": "alemania",
       "equipo": "Borussia Dortmund"
     },
     {
       "nombre": "Boca Juniors 26/27 Local",
       "precio": "$450",
-      "img": "42.jpeg",
+      "img": [
+        "42.jpeg"
+      ],
       "liga": "argentina",
       "equipo": "Boca Juniors"
     },
     {
       "nombre": "River Plate 26/27 Local",
       "precio": "$450",
-      "img": "47.jpeg",
+      "img": [
+        "47.jpeg"
+      ],
       "liga": "argentina",
       "equipo": "River Plate"
     },
     {
       "nombre": "Santos 12/13 Local",
       "precio": "$550",
-      "img": "56.jpeg",
+      "img": [
+        "56.jpeg"
+      ],
       "liga": "brasil",
       "equipo": "Santos"
     },
     {
       "nombre": "Barcelona 26/27 Local",
       "precio": "$450",
-      "img": "15.jpeg",
+      "img": [
+        "15.jpeg"
+      ],
       "liga": "espana",
       "equipo": "Barcelona"
     },
     {
       "nombre": "Barcelona 26/27 Visitante",
       "precio": "$450",
-      "img": "27.jpeg",
+      "img": [
+        "27.jpeg"
+      ],
       "liga": "espana",
       "equipo": "Barcelona"
     },
     {
       "nombre": "Real Madrid 26/27 Local",
       "precio": "$450",
-      "img": "3.jpeg",
+      "img": [
+        "3.jpeg"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
       "nombre": "Real Madrid 26/27 Visitante",
       "precio": "$450",
-      "img": "4.jpeg",
+      "img": [
+        "4.jpeg"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
       "nombre": "Barcelona 08/09 Local",
       "precio": "$550",
-      "img": "39.jpeg",
+      "img": [
+        "39.jpeg"
+      ],
       "liga": "espana",
       "equipo": "Barcelona"
     },
     {
       "nombre": "Barcelona 11/12 Visitante",
       "precio": "$550",
-      "img": "38.jpeg",
+      "img": [
+        "38.jpeg"
+      ],
       "liga": "espana",
       "equipo": "Barcelona"
     },
     {
       "nombre": "FC Barcelona 14/15 Local",
       "precio": "$550",
-      "img": "5.jpeg",
+      "img": [
+        "5.jpeg"
+      ],
       "liga": "espana",
       "equipo": "Barcelona"
     },
     {
       "nombre": "Real Madrid 16/17 Local",
       "precio": "$550",
-      "img": "41.jpeg",
+      "img": [
+        "41.jpeg"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
       "nombre": "Real Madrid 17/18 Local",
       "precio": "$450",
-      "img": "1.jpeg",
+      "img": [
+        "1.jpeg"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
       "nombre": "Real Madrid 98/00 Local",
       "precio": "$550",
-      "img": "40.jpeg",
+      "img": [
+        "40.jpeg"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
       "nombre": "Real Madrid 98/00 Visitante",
       "precio": "$550",
-      "img": "2.jpeg",
+      "img": [
+        "2.jpeg"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
       "nombre": "PSG 26/27 Visitante",
       "precio": "$450",
-      "img": "12.jpeg",
+      "img": [
+        "12.jpeg"
+      ],
       "liga": "francia",
       "equipo": "PSG"
     },
     {
       "nombre": "PSG 15/16 Alternativa",
       "precio": "$550",
-      "img": "49.jpeg",
+      "img": [
+        "49.jpeg"
+      ],
       "liga": "francia",
       "equipo": "PSG"
     },
     {
       "nombre": "Ajax 26/27 Local",
       "precio": "$450",
-      "img": "19.jpeg",
+      "img": [
+        "19.jpeg"
+      ],
       "liga": "holanda",
       "equipo": "Ajax"
     },
     {
       "nombre": "Ajax 26/27 Visitante",
       "precio": "$450",
-      "img": "23.jpeg",
+      "img": [
+        "23.jpeg"
+      ],
       "liga": "holanda",
       "equipo": "Ajax"
     },
     {
       "nombre": "Arsenal 26/27 Alternativa",
       "precio": "$450",
-      "img": "44.jpeg",
+      "img": [
+        "44.jpeg"
+      ],
       "liga": "inglaterra",
       "equipo": "Arsenal"
     },
     {
       "nombre": "Arsenal 26/27 Local",
       "precio": "$450",
-      "img": "30.jpeg",
+      "img": [
+        "30.jpeg"
+      ],
       "liga": "inglaterra",
       "equipo": "Arsenal"
     },
     {
       "nombre": "Chelsea 26/27 Visitante",
       "precio": "$450",
-      "img": "34.jpeg",
+      "img": [
+        "34.jpeg"
+      ],
       "liga": "inglaterra",
       "equipo": "Chelsea"
     },
     {
       "nombre": "Liverpool 26/27 Visitante",
       "precio": "$450",
-      "img": "20.jpeg",
+      "img": [
+        "20.jpeg"
+      ],
       "liga": "inglaterra",
       "equipo": "Liverpool"
     },
     {
       "nombre": "Man City 26/27 Local",
       "precio": "$450",
-      "img": "18.jpeg",
+      "img": [
+        "18.jpeg"
+      ],
       "liga": "inglaterra",
       "equipo": "Man City"
     },
     {
       "nombre": "Man Utd 26/27 Local",
       "precio": "$450",
-      "img": "48.jpeg",
+      "img": [
+        "48.jpeg"
+      ],
       "liga": "inglaterra",
       "equipo": "Man Utd"
     },
     {
       "nombre": "Arsenal 05/06 Local",
       "precio": "$550",
-      "img": "55.jpeg",
+      "img": [
+        "55.jpeg"
+      ],
       "liga": "inglaterra",
       "equipo": "Arsenal"
     },
     {
       "nombre": "Chelsea 07/08 Local",
       "precio": "$550",
-      "img": "53.jpeg",
+      "img": [
+        "53.jpeg"
+      ],
       "liga": "inglaterra",
       "equipo": "Chelsea"
     },
     {
       "nombre": "Chelsea 13/14 Local",
       "precio": "$550",
-      "img": "10.jpeg",
+      "img": [
+        "10.jpeg"
+      ],
       "liga": "inglaterra",
       "equipo": "Chelsea"
     },
     {
       "nombre": "Liverpool 04/05 Local",
       "precio": "$550",
-      "img": "51.jpeg",
+      "img": [
+        "51.jpeg"
+      ],
       "liga": "inglaterra",
       "equipo": "Liverpool"
     },
     {
       "nombre": "Man Utd 07/08 Local",
       "precio": "$550",
-      "img": "8.jpeg",
+      "img": [
+        "8.jpeg"
+      ],
       "liga": "inglaterra",
       "equipo": "Man Utd"
     },
     {
       "nombre": "Man Utd 07/08 Visitante",
       "precio": "$550",
-      "img": "59.jpeg",
+      "img": [
+        "59.jpeg"
+      ],
       "liga": "inglaterra",
       "equipo": "Man Utd"
     },
     {
       "nombre": "Juventus 26/27 Visitante",
       "precio": "$450",
-      "img": "68.jpeg",
+      "img": [
+        "68.jpeg"
+      ],
       "liga": "italia",
       "equipo": "Juventus"
     },
     {
       "nombre": "Napoli 26/27 Local",
       "precio": "$450",
-      "img": "22.jpeg",
+      "img": [
+        "22.jpeg"
+      ],
       "liga": "italia",
       "equipo": "Napoli"
     },
     {
       "nombre": "Roma 26/27 Local",
       "precio": "$450",
-      "img": "33.jpeg",
+      "img": [
+        "33.jpeg"
+      ],
       "liga": "italia",
       "equipo": "Roma"
     },
     {
       "nombre": "AC Milan 06/07 Local",
       "precio": "$550",
-      "img": "9.jpeg",
+      "img": [
+        "9.jpeg"
+      ],
       "liga": "italia",
       "equipo": "AC Milan"
     },
     {
       "nombre": "AC Milan 06/07 Visitante",
       "precio": "$550",
-      "img": "52.jpeg",
+      "img": [
+        "52.jpeg"
+      ],
       "liga": "italia",
       "equipo": "AC Milan"
     },
     {
       "nombre": "Inter Milan 21/22 Visitante",
       "precio": "$550",
-      "img": "50.jpeg",
+      "img": [
+        "50.jpeg"
+      ],
       "liga": "italia",
       "equipo": "Inter Milan"
     },
     {
       "nombre": "Juventus 19/20 Local",
       "precio": "$550",
-      "img": "67.jpeg",
+      "img": [
+        "67.jpeg"
+      ],
       "liga": "italia",
       "equipo": "Juventus"
     },
     {
       "nombre": "América 26/27 Local",
       "precio": "$450",
-      "img": "29.jpeg",
+      "img": [
+        "29.jpeg"
+      ],
       "liga": "mexico",
       "equipo": "América"
     },
     {
       "nombre": "Chivas 26/27 Local",
       "precio": "$450",
-      "img": "14.jpeg",
+      "img": [
+        "14.jpeg"
+      ],
       "liga": "mexico",
       "equipo": "Chivas"
     },
     {
       "nombre": "Inter Miami 26/27 Alternativo",
       "precio": "$450",
-      "img": "21.jpeg",
+      "img": [
+        "21.jpeg"
+      ],
       "liga": "mls",
       "equipo": "Inter Miami"
     },
     {
       "nombre": "Benfica 26/27 Local",
       "precio": "$450",
-      "img": "45.jpeg",
+      "img": [
+        "45.jpeg"
+      ],
       "liga": "portugal",
       "equipo": "Benfica"
     },
     {
       "nombre": "Sporting Lisboa 02/03 Local",
       "precio": "$550",
-      "img": "65.jpeg",
+      "img": [
+        "65.jpeg"
+      ],
       "liga": "portugal",
       "equipo": "Sporting Lisboa"
     },
     {
       "nombre": "Sporting Lisboa 26/27 Local",
       "precio": "$550",
-      "img": "66.jpeg",
+      "img": [
+        "66.jpeg"
+      ],
       "liga": "portugal",
       "equipo": "Sporting Lisboa"
     },
     {
       "nombre": "Argentina 26´ Visitante",
       "precio": "$450",
-      "img": "13.jpeg",
+      "img": [
+        "13.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Argentina"
     },
     {
       "nombre": "España 26´ Visitante",
       "precio": "$450",
-      "img": "11.jpeg",
+      "img": [
+        "11.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "España"
     },
     {
       "nombre": "Francia 26´ Local",
       "precio": "$450",
-      "img": "17.jpeg",
+      "img": [
+        "17.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Francia"
     },
     {
       "nombre": "Holanda 26´ Visitante",
       "precio": "$450",
-      "img": "25.jpeg",
+      "img": [
+        "25.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Holanda"
     },
     {
       "nombre": "Inglaterra 26´ Local",
       "precio": "$450",
-      "img": "16.jpeg",
+      "img": [
+        "16.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Inglaterra"
     },
     {
       "nombre": "México 26/27 Visitante",
       "precio": "$450",
-      "img": "46.jpeg",
+      "img": [
+        "46.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "México"
     },
     {
       "nombre": "Noruega 26´ Local",
       "precio": "$450",
-      "img": "24.jpeg",
+      "img": [
+        "24.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Noruega"
     },
     {
       "nombre": "Noruega 26´ Visitante",
       "precio": "$450",
-      "img": "26.jpeg",
+      "img": [
+        "26.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Noruega"
     },
     {
       "nombre": "Portugal 26/27 Local",
       "precio": "$450",
-      "img": "28.jpeg",
+      "img": [
+        "28.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Portugal"
     },
     {
       "nombre": "Alemania 14´ Local",
       "precio": "$550",
-      "img": "60.jpeg",
+      "img": [
+        "60.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Alemania"
     },
     {
       "nombre": "Alemania 22´ Local",
       "precio": "$550",
-      "img": "61.jpeg",
+      "img": [
+        "61.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Alemania"
     },
     {
       "nombre": "Argentina 06´ Local",
       "precio": "$550",
-      "img": "62.jpeg",
+      "img": [
+        "62.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Argentina"
     },
     {
       "nombre": "Argentina 14´ Visitante",
       "precio": "$550",
-      "img": "63.jpeg",
+      "img": [
+        "63.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Argentina"
     },
     {
       "nombre": "Brasil 04´ Local",
       "precio": "$550",
-      "img": "58.jpeg",
+      "img": [
+        "58.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Brasil"
     },
     {
       "nombre": "Brasil 98´ Local",
       "precio": "$550",
-      "img": "6.jpeg",
+      "img": [
+        "6.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Brasil"
     },
     {
       "nombre": "España 10´ Visitante",
       "precio": "$550",
-      "img": "57.jpeg",
+      "img": [
+        "57.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "España"
     },
     {
       "nombre": "Francia 06´ Visitante",
       "precio": "$550",
-      "img": "36.jpeg",
+      "img": [
+        "36.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Francia"
     },
     {
       "nombre": "Francia 98´ Local",
       "precio": "$550",
-      "img": "35.jpeg",
+      "img": [
+        "35.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Francia"
     },
     {
       "nombre": "México 14´ Local",
       "precio": "$550",
-      "img": "64.jpeg",
+      "img": [
+        "64.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "México"
     },
     {
       "nombre": "Portugal 06´ Local",
       "precio": "$550",
-      "img": "54.jpeg",
+      "img": [
+        "54.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Portugal"
     },
     {
       "nombre": "Portugal 18´ Local",
       "precio": "$550",
-      "img": "37.jpeg",
+      "img": [
+        "37.jpeg"
+      ],
       "liga": "selecciones",
       "equipo": "Portugal"
     },
     {
       "nombre": "Olympiakos 26/27 Local",
       "precio": "$450",
-      "img": "43.jpeg",
+      "img": [
+        "43.jpeg"
+      ],
       "liga": "otras",
       "equipo": "Olympiakos"
     },
     {
       "nombre": "America 26/27 Visitante",
       "precio": "$450",
-      "img": "https://martimx.vtexassets.com/arquivos/ids/2412559-800-800?v=639215698071370000&width=800&height=800&aspect=true",
+      "img": [
+        "https://martimx.vtexassets.com/arquivos/ids/2412559-800-800?v=639215698071370000&width=800&height=800&aspect=true"
+      ],
       "liga": "mexico",
       "equipo": "América"
     },
     {
       "nombre": "America 25/26 Visitante",
       "precio": "$450",
-      "img": "https://www.sportico.com.mx/on/demandware.static/-/Sites-sportico-master-catalog/default/dw3ae36c77/images/JN8618/JN8618.jpg",
+      "img": [
+        "https://www.sportico.com.mx/on/demandware.static/-/Sites-sportico-master-catalog/default/dw3ae36c77/images/JN8618/JN8618.jpg"
+      ],
       "liga": "mexico",
-      "equipo": "América "
+      "equipo": "América"
     },
     {
       "nombre": "America 2005",
       "precio": "$550",
-      "img": "https://amxjerseys.com/cdn/shop/files/sg-11134201-7rd43-lw0z33dvmt7w2a-Photoroom.jpg?v=1721536978",
+      "img": [
+        "https://amxjerseys.com/cdn/shop/files/sg-11134201-7rd43-lw0z33dvmt7w2a-Photoroom.jpg?v=1721536978"
+      ],
       "liga": "mexico",
       "equipo": "América"
     },
     {
       "nombre": "Chivas 26/27 Visitante",
       "precio": "$450",
-      "img": "https://www.innovasport.com/medias/1200Wx1200H-NEW-media-gallery-000000000000414078-01-20260721113020.jpg?context=bWFzdGVyfGltYWdlc3w3ODAxMnxpbWFnZS9qcGVnfGFESTVMMmc1TUM4eU9USXpOekF6T0RJNE5EZ3pNQzh4TWpBd1YzZ3hNakF3U0Y5T1JWZGZiV1ZrYVdGZloyRnNiR1Z5ZVY4d01EQXdNREF3TURBd01EQTBNVFF3TnpoZk1ERmZNakF5TmpBM01qRXhNVE13TWpBdWFuQm58ZmM1MWI3MzZhNmQwZWViNjRiNDNjZTE1ZmQyYmY3YmMwNDE3MjJkNTY2M2MxMjUxM2JiNmEwNzI4MDRiMzBjYg",
+      "img": [
+        "https://www.innovasport.com/medias/1200Wx1200H-NEW-media-gallery-000000000000414078-01-20260721113020.jpg?context=bWFzdGVyfGltYWdlc3w3ODAxMnxpbWFnZS9qcGVnfGFESTVMMmc1TUM4eU9USXpOekF6T0RJNE5EZ3pNQzh4TWpBd1YzZ3hNakF3U0Y5T1JWZGZiV1ZrYVdGZloyRnNiR1Z5ZVY4d01EQXdNREF3TURBd01EQTBNVFF3TnpoZk1ERmZNakF5TmpBM01qRXhNVE13TWpBdWFuQm58ZmM1MWI3MzZhNmQwZWViNjRiNDNjZTE1ZmQyYmY3YmMwNDE3MjJkNTY2M2MxMjUxM2JiNmEwNzI4MDRiMzBjYg"
+      ],
       "liga": "mexico",
       "equipo": "Chivas"
     },
     {
       "nombre": "Chivas 26/27 Local",
       "precio": "$450",
-      "img": "https://www.innovasport.com/medias/1200Wx1200H-NEW-media-gallery-000000000000414087-01-20260716171110.jpg?context=bWFzdGVyfGltYWdlc3w5MzExNnxpbWFnZS9qcGVnfGFHVmpMMmd3WVM4eU9URXpPVGcxTURZNU1EVTVNQzh4TWpBd1YzZ3hNakF3U0Y5T1JWZGZiV1ZrYVdGZloyRnNiR1Z5ZVY4d01EQXdNREF3TURBd01EQTBNVFF3T0RkZk1ERmZNakF5TmpBM01UWXhOekV4TVRBdWFuQm58MTllNjk4ZGY1Njg3Y2ZlYjY1OTMwMTg4M2RiMjllNjdhYzRhMTVmZjFjYWM3YjVhNTNlMWNiYTc3N2Q2Y2RkNQ",
+      "img": [
+        "https://www.innovasport.com/medias/1200Wx1200H-NEW-media-gallery-000000000000414087-01-20260716171110.jpg?context=bWFzdGVyfGltYWdlc3w5MzExNnxpbWFnZS9qcGVnfGFHVmpMMmd3WVM4eU9URXpPVGcxTURZNU1EVTVNQzh4TWpBd1YzZ3hNakF3U0Y5T1JWZGZiV1ZrYVdGZloyRnNiR1Z5ZVY4d01EQXdNREF3TURBd01EQTBNVFF3T0RkZk1ERmZNakF5TmpBM01UWXhOekV4TVRBdWFuQm58MTllNjk4ZGY1Njg3Y2ZlYjY1OTMwMTg4M2RiMjllNjdhYzRhMTVmZjFjYWM3YjVhNTNlMWNiYTc3N2Q2Y2RkNQ"
+      ],
       "liga": "mexico",
       "equipo": "Chivas"
     },
     {
       "nombre": "Chivas 06/07 Local",
       "precio": "$550",
-      "img": "https://jerseyteca.com/wp-content/uploads/2025/04/IMG_9722-scaled.jpg",
+      "img": [
+        "https://jerseyteca.com/wp-content/uploads/2025/04/IMG_9722-scaled.jpg"
+      ],
       "liga": "mexico",
       "equipo": "Chivas"
     },
     {
       "nombre": "Tigres 26/27 Visitante",
       "precio": "$450",
-      "img": "https://martimx.vtexassets.com/arquivos/ids/2419211-800-800?v=639219990685870000&width=800&height=800&aspect=true",
+      "img": [
+        "https://martimx.vtexassets.com/arquivos/ids/2419211-800-800?v=639219990685870000&width=800&height=800&aspect=true"
+      ],
       "liga": "mexico",
       "equipo": "Tigres UANL"
     },
     {
       "nombre": "Tigres 26/27 local",
       "precio": "$450",
-      "img": "https://mx.cultofutbol.com/medias/1200Wx1200H-NEW-media-gallery-000000000000418466-01-20260715090210.jpg?context=bWFzdGVyfGltYWdlc3w5MTQ3MnxpbWFnZS9qcGVnfGFERmlMMmc1Tnk4eU9URXhNRFkwT0RNME1EVXhNQzh4TWpBd1YzZ3hNakF3U0Y5T1JWZGZiV1ZrYVdGZloyRnNiR1Z5ZVY4d01EQXdNREF3TURBd01EQTBNVGcwTmpaZk1ERmZNakF5TmpBM01UVXdPVEF5TVRBdWFuQm58YmIzZGMzMjZlY2Q4YzkzMTA0MDRkMjVhZGY0NTFmZmI1NjE2ZTk1NjlhMTgzNmQzODQyZTMwOGVmODlmYzlmZA",
+      "img": [
+        "https://mx.cultofutbol.com/medias/1200Wx1200H-NEW-media-gallery-000000000000418466-01-20260715090210.jpg?context=bWFzdGVyfGltYWdlc3w5MTQ3MnxpbWFnZS9qcGVnfGFERmlMMmc1Tnk4eU9URXhNRFkwT0RNME1EVXhNQzh4TWpBd1YzZ3hNakF3U0Y5T1JWZGZiV1ZrYVdGZloyRnNiR1Z5ZVY4d01EQXdNREF3TURBd01EQTBNVGcwTmpaZk1ERmZNakF5TmpBM01UVXdPVEF5TVRBdWFuQm58YmIzZGMzMjZlY2Q4YzkzMTA0MDRkMjVhZGY0NTFmZmI1NjE2ZTk1NjlhMTgzNmQzODQyZTMwOGVmODlmYzlmZA"
+      ],
       "liga": "mexico",
       "equipo": "Tigres UANL"
     },
     {
       "nombre": "Tigres 03/04 Local",
       "precio": "$550",
-      "img": "https://www.elnumero12.com/cdn/shop/files/61C6CE3B-2427-439D-AF13-87B2BFBA0FC4.png?v=1787418189&width=3024",
+      "img": [
+        "https://www.elnumero12.com/cdn/shop/files/61C6CE3B-2427-439D-AF13-87B2BFBA0FC4.png?v=1787418189&width=3024"
+      ],
       "liga": "mexico",
       "equipo": "Tigres UANL"
     },
     {
       "nombre": "Cruz Azul 1997 Local",
       "precio": "$550",
-      "img": "https://i.ebayimg.com/images/g/c6EAAOSwnmxgNHa3/s-l300.jpg",
+      "img": [
+        "https://i.ebayimg.com/images/g/c6EAAOSwnmxgNHa3/s-l300.jpg"
+      ],
       "liga": "mexico",
       "equipo": "Cruz Azul"
     },
     {
       "nombre": "Cruz Azul 26/27 Local",
       "precio": "$450",
-      "img": "https://www.tudnfanshop.com/cdn/shop/files/Jersey-CAZ-Azul-15jpg.png?v=1783098247&width=2048",
+      "img": [
+        "https://www.tudnfanshop.com/cdn/shop/files/Jersey-CAZ-Azul-15jpg.png?v=1783098247&width=2048"
+      ],
       "liga": "mexico",
       "equipo": "Cruz Azul"
     },
     {
-      "nombre": "Cruz Azul 26/27 Visitante ",
+      "nombre": "Cruz Azul 26/27 Visitante",
       "precio": "$450",
-      "img": "https://camisetasfutbolymas.com/wp-content/uploads/2025/05/IMG-8888.webp",
+      "img": [
+        "https://camisetasfutbolymas.com/wp-content/uploads/2025/05/IMG-8888.webp"
+      ],
       "liga": "mexico",
       "equipo": "Cruz Azul"
     },
     {
       "nombre": "Toluca 26/27 Local",
       "precio": "$450",
-      "img": "https://tienda.tolucafc.com/cdn/shop/files/MT832145.png?v=1784227751",
+      "img": [
+        "https://tienda.tolucafc.com/cdn/shop/files/MT832145.png?v=1784227751"
+      ],
       "liga": "mexico",
       "equipo": "Toluca"
     },
     {
-      "nombre": "Toluca 99/00 Local ",
+      "nombre": "Toluca 99/00 Local",
       "precio": "$550",
-      "img": "https://mijerseymx.com/cdn/shop/files/c1de10f854776122_c9310541-67d0-4d07-a973-31b398398116.jpg?v=1751258633",
+      "img": [
+        "https://mijerseymx.com/cdn/shop/files/c1de10f854776122_c9310541-67d0-4d07-a973-31b398398116.jpg?v=1751258633"
+      ],
       "liga": "mexico",
       "equipo": "Toluca"
     },
     {
       "nombre": "Monterrey 26/27 Local",
       "precio": "$450",
-      "img": "https://images.puma.com/image/upload/f_auto,q_auto,w_2000,b_rgb:FAFAFA/global/714012/01/fnd/MEX/fmt/png",
+      "img": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,w_2000,b_rgb:FAFAFA/global/714012/01/fnd/MEX/fmt/png"
+      ],
       "liga": "mexico",
       "equipo": "Monterrey"
     },
     {
       "nombre": "Monterrey 26/27 Visitante",
       "precio": "$450",
-      "img": "https://mx.cultofutbol.com/medias/1200Wx1200H-NEW-media-gallery-000000000000417391-01-20260707112930.jpg?context=bWFzdGVyfGltYWdlc3wxMjY3NDJ8aW1hZ2UvanBlZ3xhR1E1TDJoall5OHlPRGt6TVRNd09Ea3hNalkzTUM4eE1qQXdWM2d4TWpBd1NGOU9SVmRmYldWa2FXRmZaMkZzYkdWeWVWOHdNREF3TURBd01EQXdNREEwTVRjek9URmZNREZmTWpBeU5qQTNNRGN4TVRJNU16QXVhbkJufDI3ODQ3OGFiYjk2MTY1MDU1YjkzZjg2ZjYyNzE3YjgwMTgxMTdkMTIxZDg4ZDA1ZWM4Njc4MzA5MThkMWUyMzk",
+      "img": [
+        "https://mx.cultofutbol.com/medias/1200Wx1200H-NEW-media-gallery-000000000000417391-01-20260707112930.jpg?context=bWFzdGVyfGltYWdlc3wxMjY3NDJ8aW1hZ2UvanBlZ3xhR1E1TDJoall5OHlPRGt6TVRNd09Ea3hNalkzTUM4eE1qQXdWM2d4TWpBd1NGOU9SVmRmYldWa2FXRmZaMkZzYkdWeWVWOHdNREF3TURBd01EQXdNREEwTVRjek9URmZNREZmTWpBeU5qQTNNRGN4TVRJNU16QXVhbkJufDI3ODQ3OGFiYjk2MTY1MDU1YjkzZjg2ZjYyNzE3YjgwMTgxMTdkMTIxZDg4ZDA1ZWM4Njc4MzA5MThkMWUyMzk"
+      ],
       "liga": "mexico",
       "equipo": "Monterrey"
     },
     {
       "nombre": "Monterrey 98/99 Local",
       "precio": "$550",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjsFS1S2dmVeEmPZPuc2ucJ3qOBW8HREj8nKMQ7Ki6jhIXqrgM2IBAWh8&s=10",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjsFS1S2dmVeEmPZPuc2ucJ3qOBW8HREj8nKMQ7Ki6jhIXqrgM2IBAWh8&s=10"
+      ],
       "liga": "mexico",
       "equipo": "Monterrey"
     },
     {
       "nombre": "Pumas 26/27 Local",
       "precio": "$450",
-      "img": "https://images.puma.com/image/upload/f_auto,q_auto,w_2000,b_rgb:FAFAFA/global/714089/01/fnd/MEX/fmt/png",
+      "img": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,w_2000,b_rgb:FAFAFA/global/714089/01/fnd/MEX/fmt/png"
+      ],
       "liga": "mexico",
       "equipo": "Pumas"
     },
     {
-      "nombre": "Pumas 26/27 Visitante ",
+      "nombre": "Pumas 26/27 Visitante",
       "precio": "$450",
-      "img": "https://www.tudnfanshop.com/cdn/shop/files/W47730-1.png?v=1783621699&width=2048",
+      "img": [
+        "https://www.tudnfanshop.com/cdn/shop/files/W47730-1.png?v=1783621699&width=2048"
+      ],
       "liga": "mexico",
       "equipo": "Pumas"
     },
     {
       "nombre": "Pumas 97/98 Visitante",
       "precio": "$550",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfdQ3SRruls8x30Lni5CDq_xu4T0LMXHXDLkmQdjdcFG7p1geRFVwMsHJl&s=10",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfdQ3SRruls8x30Lni5CDq_xu4T0LMXHXDLkmQdjdcFG7p1geRFVwMsHJl&s=10"
+      ],
       "liga": "mexico",
       "equipo": "Pumas"
     },
     {
       "nombre": "Atlas 26/27 Local",
       "precio": "$450",
-      "img": "https://www.charly.com/media/catalog/product/5/0/5020487994_6.jpg",
+      "img": [
+        "https://www.charly.com/media/catalog/product/5/0/5020487994_6.jpg"
+      ],
       "liga": "mexico",
       "equipo": "Atlas"
     },
     {
       "nombre": "Atlas 26/27 Visitante",
       "precio": "$450",
-      "img": "https://www.charly.com/media/catalog/product/5/0/5020490070_6_1_1.jpg",
+      "img": [
+        "https://www.charly.com/media/catalog/product/5/0/5020490070_6_1_1.jpg"
+      ],
       "liga": "mexico",
       "equipo": "Atlas"
     },
     {
       "nombre": "Atlas 94/95",
       "precio": "$550",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSf0oJPRA9UZYHWnrGvsjes8A70Mp9our8sbstNrUACu8a2Kj9F7x2KI&s=10",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSf0oJPRA9UZYHWnrGvsjes8A70Mp9our8sbstNrUACu8a2Kj9F7x2KI&s=10"
+      ],
       "liga": "mexico",
       "equipo": "Atlas"
     },
     {
       "nombre": "Cruz Azul 25/26 Tercero",
       "precio": "$450",
-      "img": "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__25dc1b68-1-scaled.webp",
+      "img": [
+        "https://www.jerseystrophy.com/wp-content/uploads/2026/01/AnyConv.com__25dc1b68-1-scaled.webp"
+      ],
       "liga": "mexico",
       "equipo": "Cruz Azul"
     },
     {
       "nombre": "Real Madrid 26/27 Tercero",
       "precio": "$450",
-      "img": "https://shop.realmadrid.com/cdn/shop/files/IA7520_1_APPAREL_Photography_FrontCenterView_white.jpg?v=1785320457",
+      "img": [
+        "https://shop.realmadrid.com/cdn/shop/files/IA7520_1_APPAREL_Photography_FrontCenterView_white.jpg?v=1785320457"
+      ],
       "liga": "espana",
-      "equipo": "Real Madrid "
+      "equipo": "Real Madrid"
     },
     {
       "nombre": "Real Madrid 25/26 Local",
       "precio": "$450",
-      "img": "https://soccerpost.com/cdn/shop/files/JJ1931_b2b012_plp_clipped_rev_1.png?v=1750263240",
+      "img": [
+        "https://soccerpost.com/cdn/shop/files/JJ1931_b2b012_plp_clipped_rev_1.png?v=1750263240"
+      ],
       "liga": "espana",
-      "equipo": "Real Madrid "
+      "equipo": "Real Madrid"
     },
     {
       "nombre": "Real Madrid 21/22 Local",
       "precio": "$550",
-      "img": "https://i.ebayimg.com/images/g/l1cAAOSw8gNhc4Gv/s-l400.jpg",
+      "img": [
+        "https://i.ebayimg.com/images/g/l1cAAOSw8gNhc4Gv/s-l400.jpg"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
       "nombre": "Real Madrid 17/18 Visitante",
       "precio": "$550",
-      "img": "https://jerseyhubmx.com/cdn/shop/files/2BEE511B-09DE-48BB-8196-08260A41E08E.jpg?v=1708575530",
+      "img": [
+        "https://jerseyhubmx.com/cdn/shop/files/2BEE511B-09DE-48BB-8196-08260A41E08E.jpg?v=1708575530"
+      ],
       "liga": "espana",
-      "equipo": "Real Madrid "
+      "equipo": "Real Madrid"
     },
     {
       "nombre": "Real Madrid 23/24",
       "precio": "$450",
-      "img": "https://www.innovasport.com/medias/IS-IB0011-1.jpg?context=bWFzdGVyfGltYWdlc3w3MDEwN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE9DOW9ZVEF2TVRFNE5EazVPVGczT1RRM09ESXVhbkJufDA1ZTk1MmEyNzM3NDUxOWZmY2Q0YmQwYjkwYmE5ODllNjBmODZlYmQ2ZTA4OWU5NzZlNTIxNzg5YWZkZTc1MDk",
+      "img": [
+        "https://www.innovasport.com/medias/IS-IB0011-1.jpg?context=bWFzdGVyfGltYWdlc3w3MDEwN3xpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE9DOW9ZVEF2TVRFNE5EazVPVGczT1RRM09ESXVhbkJufDA1ZTk1MmEyNzM3NDUxOWZmY2Q0YmQwYjkwYmE5ODllNjBmODZlYmQ2ZTA4OWU5NzZlNTIxNzg5YWZkZTc1MDk"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
       "nombre": "Real Madrid 11/12 Local",
       "precio": "$550",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLqZgSlqrNJA9d24F2oE6siXfXgxBoMbeXnu08EPxeL6C7JAevzqLbQEWf&s=10",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLqZgSlqrNJA9d24F2oE6siXfXgxBoMbeXnu08EPxeL6C7JAevzqLbQEWf&s=10"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
       "nombre": "Real Madrid 25/26 Visitante",
       "precio": "$450",
-      "img": "https://assets.adidas.com/images/w_500,f_auto,q_auto/0e917020f156494faa5b550b39bd36cc_faec/Jersey_Visitante_Real_Madrid_25-26_Azul_JJ4182_db01_laydown.tiff.jpg",
+      "img": [
+        "https://assets.adidas.com/images/w_500,f_auto,q_auto/0e917020f156494faa5b550b39bd36cc_faec/Jersey_Visitante_Real_Madrid_25-26_Azul_JJ4182_db01_laydown.tiff.jpg"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
-      "img": "https://www.oldfootballshirts.com/img/shirts/292/real-madrid-away-football-shirt-2019-2020-s_70607_1.jpg",
-      "nombre": "Real Madrid 19/20 Visitante ",
+      "img": [
+        "https://www.oldfootballshirts.com/img/shirts/292/real-madrid-away-football-shirt-2019-2020-s_70607_1.jpg"
+      ],
+      "nombre": "Real Madrid 19/20 Visitante",
       "precio": "$550",
       "liga": "espana",
       "equipo": "Real Madrid"
@@ -703,40 +903,52 @@
     {
       "nombre": "Real Madrid 16/17 Visitante",
       "precio": "$550",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV0r0ZPbaJGSCRQpCHfqejYdf7MobAkC9kKf1suSe3eJo9dlTizR-Lg3k&s=10",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV0r0ZPbaJGSCRQpCHfqejYdf7MobAkC9kKf1suSe3eJo9dlTizR-Lg3k&s=10"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
       "nombre": "Real Madrid 14/15 Tercero",
       "precio": "$550",
-      "img": "https://forzamexico.com/cdn/shop/files/REAL_MADRID_14-15_TERCERA.jpg?v=1729707072",
+      "img": [
+        "https://forzamexico.com/cdn/shop/files/REAL_MADRID_14-15_TERCERA.jpg?v=1729707072"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
       "nombre": "Real Madrid 11/12 Visitante",
       "precio": "$550",
-      "img": "https://amxjerseys.com/cdn/shop/files/141.svg?v=1751615340",
+      "img": [
+        "https://amxjerseys.com/cdn/shop/files/141.svg?v=1751615340"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
       "nombre": "Real Madrid 06/07 Local",
       "precio": "$550",
-      "img": "https://futballmaniashirts.com/cdn/shop/files/0ea795ed.jpg?v=1716037166&width=1946",
+      "img": [
+        "https://futballmaniashirts.com/cdn/shop/files/0ea795ed.jpg?v=1716037166&width=1946"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
-      "nombre": "Real Madrid 06/07 visitante ",
+      "nombre": "Real Madrid 06/07 visitante",
       "precio": "$550",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyPuCo8MnmR6RDcL9J8_zs6UIX0jqDd6DaHfzz7zUfhFJ2pQnJiP1o3NQ&s=10",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyPuCo8MnmR6RDcL9J8_zs6UIX0jqDd6DaHfzz7zUfhFJ2pQnJiP1o3NQ&s=10"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
-      "img": "https://tbjerseys.com/wp-content/uploads/2024/04/1-ShirtFront-RealMadrid2006-2007ThirdShort-SleeveJersey.jpg",
+      "img": [
+        "https://tbjerseys.com/wp-content/uploads/2024/04/1-ShirtFront-RealMadrid2006-2007ThirdShort-SleeveJersey.jpg"
+      ],
       "nombre": "Real Madrid 06/07 Visitante",
       "precio": "$550",
       "liga": "espana",
@@ -745,19 +957,25 @@
     {
       "nombre": "Real Madrid 96/97 Tercero",
       "precio": "$550",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrnAQHH4DVO9udpp8fZahRHDpE7Tajc4incdhrFYsHn--GZGMq8hrv7Ws&s=10",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrnAQHH4DVO9udpp8fZahRHDpE7Tajc4incdhrFYsHn--GZGMq8hrv7Ws&s=10"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
-      "nombre": "Real Madrid 03/04 Local ",
+      "nombre": "Real Madrid 03/04 Local",
       "precio": "$550",
-      "img": "https://i.pinimg.com/736x/2b/dc/16/2bdc1695f414f91f168c7e109695be70.jpg",
+      "img": [
+        "https://i.pinimg.com/736x/2b/dc/16/2bdc1695f414f91f168c7e109695be70.jpg"
+      ],
       "liga": "espana",
       "equipo": "Real Madrid"
     },
     {
-      "img": "https://www.myretrojersey.com/wp-content/uploads/2022/09/rmadrid-1.png",
+      "img": [
+        "https://www.myretrojersey.com/wp-content/uploads/2022/09/rmadrid-1.png"
+      ],
       "nombre": "Real Madrid 02/03 Visitante",
       "precio": "$550",
       "liga": "espana",
@@ -768,77 +986,103 @@
     {
       "nombre": "Mercedes 2025 Mecanicos",
       "precio": "$550",
-      "img": "https://pitshop.mx/cdn/shop/files/ProductosPitshop-2025-06-02T211056.165.jpg?v=1748920019",
+      "img": [
+        "https://pitshop.mx/cdn/shop/files/ProductosPitshop-2025-06-02T211056.165.jpg?v=1748920019"
+      ],
       "equipo": "mercedes"
     },
     {
       "nombre": "McLaren 2026 Oficial",
       "precio": "$550",
-      "img": "https://driver1.com/cdn/shop/files/701241089001_pp_01_mclaren.webp?v=1775068429&width=1400",
+      "img": [
+        "https://driver1.com/cdn/shop/files/701241089001_pp_01_mclaren.webp?v=1775068429&width=1400"
+      ],
       "equipo": "mclaren"
     },
     {
       "nombre": "Red Bull Racing 2026",
       "precio": "$550",
-      "img": "https://images.footballfanatics.com/red-bull-racing/oracle-red-bull-racing-2026-team-set-up-t-shirt_ss5_p-203284843+pv-3+u-ammjc73wpeeyuszjqkks+v-vlow3wznuudvfa1rlm7t.jpg?_hv=2&w=1018",
+      "img": [
+        "https://images.footballfanatics.com/red-bull-racing/oracle-red-bull-racing-2026-team-set-up-t-shirt_ss5_p-203284843+pv-3+u-ammjc73wpeeyuszjqkks+v-vlow3wznuudvfa1rlm7t.jpg?_hv=2&w=1018"
+      ],
       "equipo": "red_bull"
     },
     {
       "nombre": "Mercedes 2026 Negra",
       "precio": "$550",
-      "img": "https://driver1.com/cdn/shop/files/KE5325.webp?v=1771254114&width=1200",
+      "img": [
+        "https://driver1.com/cdn/shop/files/KE5325.webp?v=1771254114&width=1200"
+      ],
       "equipo": "mercedes"
     },
     {
       "nombre": "Cadillac 2026 Negra",
       "precio": "$550",
-      "img": "https://i0.wp.com/formulaentreamigos.com/wp-content/uploads/2026/02/3-1.png?fit=1080%2C1080&ssl=1",
+      "img": [
+        "https://i0.wp.com/formulaentreamigos.com/wp-content/uploads/2026/02/3-1.png?fit=1080%2C1080&ssl=1"
+      ],
       "equipo": "cadillac"
     },
     {
       "nombre": "Ferrari 2026 Rojo",
       "precio": "$550",
-      "img": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/I/61vOEC-prcL._AC_SX679_.jpg",
+      "img": [
+        "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/I/61vOEC-prcL._AC_SX679_.jpg"
+      ],
       "equipo": "ferrari"
     },
     {
       "nombre": "Aston Martin 2026 Oficial",
       "precio": "$550",
-      "img": "https://images.puma.com/image/upload/f_auto,q_auto,w_2000,b_rgb:FAFAFA/global/713889/01/fnd/MEX/fmt/png",
+      "img": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,w_2000,b_rgb:FAFAFA/global/713889/01/fnd/MEX/fmt/png"
+      ],
       "equipo": "aston_martin"
     },
     {
       "nombre": "Alpine 2023 Negra",
       "precio": "$550",
-      "img": "https://images.footballfanatics.com/alpine/bwt-alpine-f1-team-2023-t-shirt-black_ss4_p-13356049+pv-1+u-ard4u1pbo648p8gq5tyj+v-684bd93f105849f3bec978c1ba5fdceb.jpg?_hv=2&w=1018",
+      "img": [
+        "https://images.footballfanatics.com/alpine/bwt-alpine-f1-team-2023-t-shirt-black_ss4_p-13356049+pv-1+u-ard4u1pbo648p8gq5tyj+v-684bd93f105849f3bec978c1ba5fdceb.jpg?_hv=2&w=1018"
+      ],
       "equipo": "alpine"
     },
     {
       "nombre": "Audi 2026 Oficial",
       "precio": "$550",
-      "img": "https://www.innovasport.com/medias/1200Wx1200H-NEW-media-gallery-000000000000394194-03-20260128121212.jpg?context=bWFzdGVyfGltYWdlc3w5NjQwMnxpbWFnZS9qcGVnfGFEZGhMMmhtTlM4eE5qVTBPVGc0TmprMU1UUTFOQzh4TWpBd1YzZ3hNakF3U0Y5T1JWZGZiV1ZrYVdGZloyRnNiR1Z5ZVY4d01EQXdNREF3TURBd01EQXpPVFF4T1RSZk1ETmZNakF5TmpBeE1qZ3hNakV5TVRJdWFuQm58YjExMTQwM2RiNzJlNWUzNDMxZWNmMmIyMTNiYzFkMmM1YzY0NTEzOGUxYmEyNmQ3NTk3Yzg3YWI2NzFhYzhjMw",
+      "img": [
+        "https://www.innovasport.com/medias/1200Wx1200H-NEW-media-gallery-000000000000394194-03-20260128121212.jpg?context=bWFzdGVyfGltYWdlc3w5NjQwMnxpbWFnZS9qcGVnfGFEZGhMMmhtTlM4eE5qVTBPVGc0TmprMU1UUTFOQzh4TWpBd1YzZ3hNakF3U0Y5T1JWZGZiV1ZrYVdGZloyRnNiR1Z5ZVY4d01EQXdNREF3TURBd01EQXpPVFF4T1RSZk1ETmZNakF5TmpBeE1qZ3hNakV5TVRJdWFuQm58YjExMTQwM2RiNzJlNWUzNDMxZWNmMmIyMTNiYzFkMmM1YzY0NTEzOGUxYmEyNmQ3NTk3Yzg3YWI2NzFhYzhjMw"
+      ],
       "equipo": "audi"
     },
     {
       "nombre": "VCARB 2026 Oficial",
       "precio": "$550",
-      "img": "https://images.footballfanatics.com/vcarb/vcarb-hugo-2026-team-t-shirt_ss5_p-203374210+u-ncfnx9bi7cenxylgjnwh+v-etuot7huy5fhhsekvuzj.jpg?_hv=2&w=532",
+      "img": [
+        "https://images.footballfanatics.com/vcarb/vcarb-hugo-2026-team-t-shirt_ss5_p-203374210+u-ncfnx9bi7cenxylgjnwh+v-etuot7huy5fhhsekvuzj.jpg?_hv=2&w=532"
+      ],
       "equipo": "racing_bulls"
     },
     {
       "nombre": "Williams 2026 Oficial",
       "precio": "$550",
-      "img": "https://images.footballfanatics.com/williams-racing/williams-racing-new-era-replica-tech-t-shirt-navy-kids_ss5_p-203632223+u-7vanq5rwy0rkcrdo83o8+v-mntncrfscmccpr5jrnfl.jpg?_hv=2&w=532",
+      "img": [
+        "https://images.footballfanatics.com/williams-racing/williams-racing-new-era-replica-tech-t-shirt-navy-kids_ss5_p-203632223+u-7vanq5rwy0rkcrdo83o8+v-mntncrfscmccpr5jrnfl.jpg?_hv=2&w=532"
+      ],
       "equipo": "williams"
     },
     {
       "nombre": "Mercedes 2026 Blanca",
       "precio": "$550",
-      "img": "https://driver1.com/cdn/shop/files/KE5324.webp?v=1771254114&width=1200",
+      "img": [
+        "https://driver1.com/cdn/shop/files/KE5324.webp?v=1771254114&width=1200"
+      ],
       "equipo": "mercedes"
     },
     {
-      "img": "https://fanabox.com/cdn/shop/files/2025ScuderiaFerrariF1_HPTeamMiamiGPMen_sT-Shirt-White_5.jpg?v=1774753494&width=1080",
+      "img": [
+        "https://fanabox.com/cdn/shop/files/2025ScuderiaFerrariF1_HPTeamMiamiGPMen_sT-Shirt-White_5.jpg?v=1774753494&width=1080"
+      ],
       "nombre": "Ferrari 2025 Blanca",
       "precio": "$550",
       "equipo": "ferrari"
@@ -846,11 +1090,15 @@
     {
       "nombre": "Cadillac Polo 2026 Blanca",
       "precio": "$650",
-      "img": "https://scuderiaf.com/cdn/shop/files/PoloCadillacF1Oficial2026Blanco_1.png?v=1771052779",
+      "img": [
+        "https://scuderiaf.com/cdn/shop/files/PoloCadillacF1Oficial2026Blanco_1.png?v=1771052779"
+      ],
       "equipo": "cadillac"
     },
     {
-      "img": "https://images.footballfanatics.com/red-bull-racing/red-bull-racing-japan-special-edition-replica-track-polo_ss5_p-202681566+u-udzltpmydkseqjr3113n+v-zeaxnrslktpnoceagdku.jpg?_hv=2&w=600",
+      "img": [
+        "https://images.footballfanatics.com/red-bull-racing/red-bull-racing-japan-special-edition-replica-track-polo_ss5_p-202681566+u-udzltpmydkseqjr3113n+v-zeaxnrslktpnoceagdku.jpg?_hv=2&w=600"
+      ],
       "nombre": "Red Bull 2025-GP Susuka",
       "precio": "$650",
       "equipo": "red_bull"
@@ -858,7 +1106,9 @@
     {
       "nombre": "Ferrari 2023-GP Monza",
       "precio": "$600",
-      "img": "https://www.fuelforfans.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw8c1f5520/images/large/701227711001_pp_01_scuderia-ferrari.jpg?sw=800&sh=800&sm=fit",
+      "img": [
+        "https://www.fuelforfans.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw8c1f5520/images/large/701227711001_pp_01_scuderia-ferrari.jpg?sw=800&sh=800&sm=fit"
+      ],
       "equipo": "ferrari"
     }
   ],
@@ -866,25 +1116,33 @@
     {
       "nombre": "Bulls Jordan Retro 98",
       "precio": "$550",
-      "img": "https://fanatics.frgimages.com/chicago-bulls/mens-mitchell-and-ness-michael-jordan-scarlet-chicago-bulls-1997/98-hardwood-classics-authentic-jersey_pi3902000_ff_3902287-1c1317b0ddf7fbe59314_full.jpg?_hv=2&w=600",
+      "img": [
+        "https://fanatics.frgimages.com/chicago-bulls/mens-mitchell-and-ness-michael-jordan-scarlet-chicago-bulls-1997/98-hardwood-classics-authentic-jersey_pi3902000_ff_3902287-1c1317b0ddf7fbe59314_full.jpg?_hv=2&w=600"
+      ],
       "equipo": "bulls"
     },
     {
       "nombre": "Lakers LeBron James Icon",
       "precio": "$550",
-      "img": "https://fanatics.frgimages.com/los-angeles-lakers/mens-nike-lebron-james-gold-los-angeles-lakers-authentic-jersey-icon-edition_ss5_p-200040773+pv-1+u-qgc2cv6cqicxemff0jsi+v-hhzjauv6uv9oppcc5uj5.jpg?_hv=2&w=1018",
+      "img": [
+        "https://fanatics.frgimages.com/los-angeles-lakers/mens-nike-lebron-james-gold-los-angeles-lakers-authentic-jersey-icon-edition_ss5_p-200040773+pv-1+u-qgc2cv6cqicxemff0jsi+v-hhzjauv6uv9oppcc5uj5.jpg?_hv=2&w=1018"
+      ],
       "equipo": "lakers"
     },
     {
       "nombre": "Warriors Curry Statement",
       "precio": "$550",
-      "img": "https://www.nbastore.com.mx/medias/1200Wx1200H-NEW-media-gallery-000000000000390843-06-20251203101501.jpg?context=bWFzdGVyfGltYWdlc3wxMDIyMjB8aW1hZ2UvanBlZ3xhREk1TDJneE55OHhOVGt5TVRRNE9EYzRPVFV6TkM4eE1qQXdWM2d4TWpBd1NGOU9SVmRmYldWa2FXRmZaMkZzYkdWeWVWOHdNREF3TURBd01EQXdNREF6T1RBNE5ETmZNRFpmTWpBeU5URXlNRE14TURFMU1ERXVhbkJufDEwZWI5YTQ1NzIzYzBkNDMyMjk0ZTQxYzY2ZWZjN2VlMzEwNzk4MGY5YjMwOTJmMjQ5N2YxMzljNGNlMDRkOTA",
+      "img": [
+        "https://www.nbastore.com.mx/medias/1200Wx1200H-NEW-media-gallery-000000000000390843-06-20251203101501.jpg?context=bWFzdGVyfGltYWdlc3wxMDIyMjB8aW1hZ2UvanBlZ3xhREk1TDJneE55OHhOVGt5TVRRNE9EYzRPVFV6TkM4eE1qQXdWM2d4TWpBd1NGOU9SVmRmYldWa2FXRmZaMkZzYkdWeWVWOHdNREF3TURBd01EQXdNREF6T1RBNE5ETmZNRFpmTWpBeU5URXlNRE14TURFMU1ERXVhbkJufDEwZWI5YTQ1NzIzYzBkNDMyMjk0ZTQxYzY2ZWZjN2VlMzEwNzk4MGY5YjMwOTJmMjQ5N2YxMzljNGNlMDRkOTA"
+      ],
       "equipo": "warriors"
     },
     {
       "nombre": "PROXIMAMENTE",
       "precio": "$0",
-      "img": "https://www.shutterstock.com/image-vector/rubber-vector-stamp-spanish-word-260nw-2647701485.jpg",
+      "img": [
+        "https://www.shutterstock.com/image-vector/rubber-vector-stamp-spanish-word-260nw-2647701485.jpg"
+      ],
       "equipo": "hawks"
     }
   ]
