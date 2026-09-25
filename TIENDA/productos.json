@@ -393,9 +393,10 @@
       "precioJugador": "$499"
     },
     {
-      "nombre": "Chivas 26/27 Local",
+      "nombre": "Chivas 25/26 Visitante",
       "img": [
-        "14.jpeg"
+        "https://www.tudnfanshop.com/cdn/shop/files/J2.png?v=1752090410&width=1500",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNFcNHoaYlULvAQo6XOpBaiDrJ1i-l4kcUvXMud168SxFl0dkkZECyoto&s=10"
       ],
       "liga": "mexico",
       "equipo": "Chivas",
@@ -438,7 +439,9 @@
       ],
       "liga": "portugal",
       "equipo": "Sporting Lisboa",
-      "precioRetro": "$599"
+      "precioRetro": "",
+      "precioAficion": "$399",
+      "precioJugador": "$499"
     },
     {
       "nombre": "Argentina 26´ Visitante",
@@ -1036,6 +1039,579 @@
       "liga": "espana",
       "equipo": "Real Madrid",
       "precioRetro": "$599"
+    },
+    {
+      "nombre": "Barcelona 26/27 Alternativa",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://store.fcbarcelona.com/cdn/shop/files/II6648-301_1_UCL.png?v=1786509440"
+      ],
+      "liga": "espana",
+      "equipo": "Barcelona"
+    },
+    {
+      "nombre": "Barcelona 24/25 Visitante",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://jerseydor.com/cdn/shop/files/re_1729550022_barcelona-2024-2025-nike-football-away-jersey-front_9271fecb-a8dc-4041-978b-1778ee828e2f_grande.jpg?v=1740516010",
+        "https://footsoccerpro.co/wp-content/uploads/2024/11/Maillot-Barca-Exterieur-2024-2025-Pedri.jpg"
+      ],
+      "liga": "espana",
+      "equipo": "Barcelona"
+    },
+    {
+      "nombre": "Barcelona 10/11 Local ",
+      "precioAficion": "",
+      "precioJugador": "",
+      "precioRetro": "$599",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ZlJ3WUWHeosKkSrnz0wIKH87C0GaMAruOtPNBkv8Lx9CLY8wDbb2UviZ&s=10",
+        "https://www.classicfootballshirts.co.uk/cdn-cgi/image/fit=pad,q=70,f=webp//pub/media/catalog/product//2/0/200825629182-1_g0hpvdsoj4lmuobm.jpg"
+      ],
+      "liga": "espana",
+      "equipo": "Barcelona"
+    },
+    {
+      "nombre": "Barcelona 99/00 Local",
+      "precioRetro": "$599",
+      "liga": "espana",
+      "equipo": "Barcelona",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZqfQBSdO4kP7pYZhQM_ikpo71A9ui8Rsbp9sVejcdxbbA0GItDtGVHxyQ&s=10",
+        "https://i.pinimg.com/736x/39/0e/41/390e411cdef1184ec982dea184671eb2.jpg"
+      ]
+    },
+    {
+      "nombre": "Barcelona 05/06 Local",
+      "precioRetro": "$599",
+      "img": [
+        "https://newnowweb.com/wp-content/uploads/2025/11/1e87b696.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6coTDLmZNM0kYa8lYfxnzr1Cc2qUkVaufjIxOmkbaT_EDTscnCNLgfxuN&s=10"
+      ],
+      "liga": "espana",
+      "equipo": "Barcelona"
+    },
+    {
+      "nombre": "Barcelona 25/26 Local",
+      "precioRetro": "$599",
+      "img": [
+        "https://newnowweb.com/wp-content/uploads/2025/11/51e4d5a1.jpg"
+      ],
+      "liga": "espana",
+      "equipo": "Barcelona"
+    },
+    {
+      "nombre": "Barcelona 24/25 Local",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwzXPoSPWuLPHU1QMJWLPXDaxrY6E-AQVOEdNYrEa0mvJYceS2uG_6YLCwYnwJv6eewEREqcbdVOCIfiUR8_4qaooeD5LOKyLezgt5fkrw2kUXHH8pR1SsWeumKBRnE5OKKcCQZAVrX5JwF_TOYxiqYRyd7yhkW847szZcwRNylT2A6OqZ-sYmT9jH8DA/s600/barcelona%2024-25-home-kit%20%286%29.jpg",
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0m2ffSHF5fk_w1oUXjMY_bwBaZL1VQYxuPFoJOWViETAbv77SqmJ2MXBrE4YhtglXHIYjCNx3I7ScwefjjRFkTZyeTa9oWyiaawCEChP6ggr_qqfhBP3WbU5eDPTKNXMbENyPxLLt7rHA7ZqclHi2DXIbHbBk5RitsDJ-jmrgrbE6yDmTra48DqZ9LX4/s600/barcelona%2024-25-home-kit%20%288%29.jpg"
+      ],
+      "liga": "espana",
+      "equipo": "Barcelona"
+    },
+    {
+      "nombre": "Barcelona 13-14 Alternativa",
+      "precioRetro": "$599",
+      "img": [
+        "https://www.jerseystrophy.com/wp-content/uploads/2024/10/AnyConv.com__4a5da439-min-scaled.webp",
+        "https://www.jerseystrophy.com/wp-content/uploads/2024/10/bca2365a-min-scaled.webp"
+      ],
+      "liga": "espana",
+      "equipo": "Barcelona"
+    },
+    {
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIyhT4QgGSu74ujwjfbvd-i1Zk1AOb3kocjqJdohmsyN7BZPy8BXXaqlsD&s=10",
+        "https://i.ebayimg.com/images/g/u3gAAOSwMdRidWsW/s-l400.jpg"
+      ],
+      "nombre": "Barcelona 17-18 Alternativo",
+      "precioRetro": "$599",
+      "liga": "espana",
+      "equipo": "Barcelona"
+    },
+    {
+      "nombre": "Barcelona 08-09 Visitante ",
+      "precioRetro": "$599",
+      "img": [
+        "https://camisetasfutbolbaloncesto.com/cdn/shop/files/19d4ea3c-scaled-Photoroom.jpg?v=1728554085&width=1946",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHilFDFJuvJoaARI9kDl6-fIiGir8pwYFWo4WOcgmwHfJCqTdZvTpMIVoU&s=10"
+      ],
+      "liga": "espana",
+      "equipo": "Barcelona"
+    },
+    {
+      "nombre": "Barcelona 15-16 Local",
+      "precioRetro": "$599",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0jargj0FtVlJMuZ6VpcEHv6KqgGy2-VMZp80RF4HhcOG8iP_bR_cQ_-o&s=10",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCV4maCudU1wcHmz27YEjbkqVpP3GnWvI8iWRme46DNQR2JXmOKCUoJULo&s=10"
+      ],
+      "liga": "espana",
+      "equipo": "Barcelona"
+    },
+    {
+      "nombre": "Benfica 26-27 Visitante",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://www.tudnfanshop.com/cdn/shop/files/KB2024_1_APPAREL_Photography_FrontCenterView_transparent_2288e8a5-ee6c-4d53-ba0a-6cb5d4928d67.png?v=1784572630&width=2400",
+        "https://www.footyheadlines.com/static/img/post/2026/07/05/XqZycyuz4tAVUJX/benfica-26-27-away-kit-released.jpg?s=800"
+      ],
+      "liga": "portugal",
+      "equipo": "Benfica"
+    },
+    {
+      "nombre": "Porto 26-27 Local",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDXjIDEVVAdJgH3WwzDZQ-L4u6IcVt9DHacODpDKc7eg6_eW6vft4R6NLe1JWMBr2YMWSCV6edWXlnmdZRAP3AXimqvn21nuwphfxcsN55hRd8ThjAabJ7Me9yeBDZsK5bD19Bf0UGk8RpJDdwUaDUjVPE6MINrsCTlUc45abLiOe8r73HI7sEEl1avrXa/s1000/porto-26-27-home-kit%20%286%29.jpg"
+      ],
+      "liga": "portugal",
+      "equipo": "Porto"
+    },
+    {
+      "nombre": "Porto 26-27 Visitante",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://http2.mlstatic.com/D_NQ_NP_936986-MLM115040791039_072026-O.webp"
+      ],
+      "liga": "portugal",
+      "equipo": "Porto"
+    },
+    {
+      "nombre": "Porto 03-04 Local",
+      "precioRetro": "$599",
+      "img": [
+        "https://store.fcporto.pt/media/catalog/product/5/0/502400421980_01.png?optimize=high&fit=bounds&height=556&width=430&canvas=430:556&format=jpeg",
+        "https://www.vintagefootball-jerseys.com/wp-content/uploads/2023/11/2_bc640346-f57e-4488-ab62-944c31187898.jpg"
+      ],
+      "liga": "portugal",
+      "equipo": "Porto"
+    },
+    {
+      "nombre": "SP Lisboa 26-27 Visitante",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://www.lojadesportiva.com/cdn/shop/files/nova-camisola-alternativa-sporting-cp-26-27-futebol-508_1445x.jpg?v=1785174623",
+        "https://lojaverde.sporting.pt/cdn/shop/files/camisola-alternativa-dourada-nike-total-90-sporting-26-27-costas.jpg?v=1784805556&width=900"
+      ],
+      "liga": "portugal",
+      "equipo": "Sporting Lisboa"
+    },
+    {
+      "nombre": "SP Lisboa 25-26",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://acdn-us.mitiendanube.com/stores/004/134/318/products/tmp_b64_bc6636af-e74a-4034-ad76-839f31bbe622_4134318_4287588-352ffc04627783187917580118723240-1024-1024.webp"
+      ],
+      "liga": "portugal",
+      "equipo": "Sporting Lisboa"
+    },
+    {
+      "nombre": "Ajax 26-27 Tercero",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh9fBbddHwclv-AhiDTWol2R-pyi7DeV3n-mlojYZIQbuZtqxE98GSU8aEQvXAWWFWEKULb85OyyRpPj86rjAU2ZX3CGoogPj6EwLySEqNp0LHBnWUXekaGH_BGFZTRoQ5DdRGK19V2XqOF9mxta20_hOM87NHYp7WRSDstPZDEiCX1CIqWkbuNVMhWkix/s600/ajax-26-27-third-kit%20%283%29.jpg",
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzJ4LwQP9k1sxbSBcaBecoueS-NkNbhUn1Lu8GLF4E_6HslcncJlWyqOPbPU3cEhfBcyGLUSf7s43jHOWf0kG5jylWqhzSAy3ICiW0bb2-B9hgqDqkJrOoQRI2MEFYhfiRMPUyMwxtKdduMoDm5U_Fg2LrnVjTCKv_YjIZUxcJej9ydIzYRpeQXs8WhMt3/s600/ajax-26-27-third-kit%20%285%29.jpg"
+      ],
+      "liga": "holanda",
+      "equipo": "Ajax"
+    },
+    {
+      "nombre": "Ajax 25-26 Visitante",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://www.tudnfanshop.com/cdn/shop/files/Y2Tf6My3_NSK.png?v=1755698669&width=2400"
+      ],
+      "liga": "holanda",
+      "equipo": "Ajax"
+    },
+    {
+      "nombre": "Ajax 25-26 Tercero",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhO41oPI1quUShkRmnI3dkcUOl3LRjD9PYG1QFImclCa1_8nfHf7bV-9c&s=10"
+      ],
+      "liga": "holanda",
+      "equipo": "Ajax"
+    },
+    {
+      "nombre": "Ajax 24-25 Tercero",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPn4DpgsgYstwemZS2sJDqQw-nJw85ObMC9l0K96l6Y3xzEwNosdI0SXY&s=10"
+      ],
+      "liga": "holanda",
+      "equipo": "Ajax"
+    },
+    {
+      "nombre": "Ajax 98-99 Local",
+      "precioRetro": "$599",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEytR3LSp8t6IdVOBkzQ3Zp-Bz3Pzc22VVRyN3-M_2KU_ES4IBpxxGryM&s=10"
+      ],
+      "liga": "holanda",
+      "equipo": "Ajax"
+    },
+    {
+      "nombre": "Feyenoord 26-27 local",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsQ-YLBTp72sgLH7-pDYSHsvOoqsuwmIj2bW5Lf5_JyKlm1ca4sxYBJko46FHhyphenhyphen2ZhbRU00zOUIqhc3Dk-AQCwvFdl3FkoW159K3xY0VwfBGXa4EH0qnAUS6VM934n7V3RDz6bs4ljg0jm96ZbARd5vA7rBRUHzrJ9X35UMWeGnHN0Pqt4IrOW85hWQAA/s1600/presentacion-de-la-camiseta-local-del-feyenoord-26-27.jpg"
+      ],
+      "liga": "holanda",
+      "equipo": "Feyenoord"
+    },
+    {
+      "nombre": "Feyenoord 26-27 visitante",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://www.greavessports.com/cdn/shop/files/1_2591e29f-029a-4787-a40b-c2201aaadc4d.jpg?v=1785852300"
+      ],
+      "liga": "holanda",
+      "equipo": "Feyenoord"
+    },
+    {
+      "nombre": "Feyenoord 26-27 Alternativa",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://fanshop.feyenoord.nl/cdn/shop/files/PSM00386FEY-E048_MOODINDIGOSEABORNDEEPWELL_FLT_01.jpg?v=1778488162&width=500"
+      ],
+      "liga": "holanda",
+      "equipo": "Feyenoord"
+    },
+    {
+      "nombre": "Borussia Dortmund 26-27 Local",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/784091/01/fnd/MEX/fmt/png",
+        "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/784091/01/bv/fnd/MEX/fmt/png"
+      ],
+      "liga": "alemania",
+      "equipo": "Borussia Dortmund"
+    },
+    {
+      "nombre": "Borussia Dortmund 25-26 Tercero",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtvV3oEpldj5dzC6rhU3yS6Jvo1S1cA4Gd77iGm0sB-8cey0ky6_r7JMpKCamz3vitmc8q0Ko4B7J15KuBLc8WPB5Qj3loCedNEdlUHZycU2MZMCXYPrElvoG7NZToWDHv3hE6OgmWXG8CC8YlSCThEtdEMbzqKGfDBEkwhyphenhyphen-lvKFVsPVPcSyHwFmu0ws-/s1600/el-dortmund-mantendra-la-tercera-camiseta-de-la-temporada-2014-2015-para-la-temporada-2015-2016.jpg"
+      ],
+      "liga": "alemania",
+      "equipo": "Borussia Dortmund"
+    },
+    {
+      "nombre": "Borussia Dortmund 22-23 Local",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://dasports.com.br/cdn/shop/products/camisa-borussia-dortmund-i-patch-champions-league-2223-puma-amarelo-3691294.jpg?v=1756700747"
+      ],
+      "liga": "alemania",
+      "equipo": "Borussia Dortmund"
+    },
+    {
+      "nombre": "Borussia Dortmund 22-23 Especial",
+      "precioAficion": "$449",
+      "precioJugador": "$549",
+      "img": [
+        "https://batfamilysports.com/cdn/shop/files/f66cd5e5e23913f9cb351d9d3bc4f87f.png?v=1741494442",
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzkHWQYpb35hzFHr4UXKD-vRwsy2kIng3KQQhyEfWg8lQHKZGFoUVC_Ct4u6v3z0ZmybFXEj84naYQuqx4dXv1XIXIithamprHSHKVZPuXZ126VlO4s8_9bftxDl7Iqcojz5NWemZqmcsW5cQfnc-TpaiZH4nqxXSJAB69AAmFGolfQo-H6wdTKuIB/s1600/Dortmund%20All-Black%2022-23%20Special%20Kit%20Released%20%2811%29.jpg"
+      ],
+      "liga": "alemania",
+      "equipo": "Borussia Dortmund"
+    },
+    {
+      "nombre": "Borussia Dortmund 16-17 Local",
+      "precioRetro": "$599",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS24lMQympOZ7no0dXiwPrR4tCGHTq80gvhBMPElswsk5m2P9vpmDuLN6o&s=10",
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtBm9FYiNahwraPd2Eta-mQQ39nT7QdwC1YQ9q3PwDdQuo8JsrlT8mZU0tHOvGYip_R3-8JbtgLM2_AwD4O-cPlxO-LfmW8bNgqnMYUHLPWJ6JQK4-cCWbgRudvGpmaR2Ni-W3xfrwrcc/s1600/bvb-champions-league-kit-on-pitch+%25282%2529.jpg"
+      ],
+      "liga": "alemania",
+      "equipo": "Borussia Dortmund"
+    },
+    {
+      "nombre": "Bayern Munich 26-27 Tercero",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://soccerpost.com/cdn/shop/files/Screenshot2026-08-20at9.45.54AM_clipped_rev_1.png?v=1787233640"
+      ],
+      "liga": "alemania",
+      "equipo": "Bayern Munich"
+    },
+    {
+      "nombre": "Bayern Munich 25-26 Tercero",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://soccerpost.com/cdn/shop/files/Screenshot2025-08-02at11.30.38AM_clipped_rev_1.png?v=1754148698",
+        "https://footballfashion.org/wordpress/wp-content/uploads/2025/08/fc-bayern-2025-2026-adidas-champions-league-kit-2.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcli2u1vtelhz0WC3NqN-H5AUqLvyeSrXcR396_yb6wcbENR2Xhy0ID1r4&s=10"
+      ],
+      "liga": "alemania",
+      "equipo": "Bayern Munich"
+    },
+    {
+      "nombre": "Bayern Munich 25-26 Visitante ",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://soccerpost.com/cdn/shop/files/JJ2145_b2b012_plp_clipped_rev_1.png?v=1748630004",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJInmrkNwDl8QtwxSIbJ7ePPM3l5-8ZOtxJe3vPiq1URyDPPlXAMSURVk&s=10",
+        "https://footballfashion.org/wordpress/wp-content/uploads/2025/05/FC-Bayern-2025-2026-adidas-Away-Jersey-3.jpg"
+      ],
+      "liga": "alemania",
+      "equipo": "Bayern Munich"
+    },
+    {
+      "nombre": "Bayern Munich 14-15 Local",
+      "precioRetro": "$599",
+      "img": [
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpcupbOsa_bbagqqiQM0cVl_4mR8yhrALyoFcT0NxDM8PHN7fUfLbSx-sub8yOlehtyy6sEAciQ3nn4rD3Va0myy2R8tGvuykayaJ572MfEvBiIA74bpFJLf0tuvsz6IwmZgH5gVBWUDG8/s1600/Bayern+14-15+Home+Kit+(1).jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfs7311MaMFj61cTmGedAgc-vhhdm54A8yDjPDzxrwLkV6pThBnNtFqA76&s=10"
+      ],
+      "liga": "alemania",
+      "equipo": "Bayern Munich"
+    },
+    {
+      "nombre": "Bayern Munich 12-13 Local",
+      "precioRetro": "$599",
+      "img": [
+        "https://preview.redd.it/found-this-bayern-2012-13-champions-league-final-jersey-on-v0-9q35357sjshe1.jpg?width=759&format=pjpg&auto=webp&s=0ea8bd5bd953a1b9c9e707fd17ec444b976820e6"
+      ],
+      "liga": "alemania",
+      "equipo": "Bayern Munich"
+    },
+    {
+      "nombre": "Bayern Munich 23-24 Local",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://m.media-amazon.com/images/I/51ePL2UP8GL.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwCBi_afyjJJuXva9P-EymmEhX8dBHcng9Kk5w7GQomYFVAtrA7Vh1E67_&s=10"
+      ],
+      "liga": "alemania",
+      "equipo": "Bayern Munich"
+    },
+    {
+      "nombre": "Bayern Munich 23-24 Visitante",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL420JHvxhWgEpqU1qhuGsUVaiT_gYiunbptlqRQ_3KkcxiDnJS3nFDfw&s=10"
+      ],
+      "liga": "alemania",
+      "equipo": "Bayern Munich"
+    },
+    {
+      "nombre": "Bayern Munich 14-15 Tercero ",
+      "precioRetro": "$599",
+      "img": [
+        "https://mijerseymx.com/cdn/shop/files/da3a7202414b4b16.jpg?v=1751137696",
+        "https://i.ebayimg.com/images/g/GTIAAOSwYc5fvqkF/s-l400.jpg",
+        "https://camisetasfutbolymas.com/wp-content/uploads/2023/10/camiseta-bayer-munich-2014-2015-visitante-Photoroom.jpg"
+      ],
+      "liga": "alemania",
+      "equipo": "Bayern Munich"
+    },
+    {
+      "nombre": "Bayern Munich 95/96 Local",
+      "precioRetro": "$599",
+      "img": [
+        "https://mysoccerjerseyss.com/cdn/shop/files/bd956a74_1.png?v=1776732477&width=1920",
+        "https://mysoccerjerseyss.com/cdn/shop/files/803643c6_1.png?v=1776732477&width=1946"
+      ],
+      "liga": "alemania",
+      "equipo": "Bayern Munich"
+    },
+    {
+      "nombre": "RB Leipzig",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://assets.redbullshop.com/images/f_auto,q_auto/t_product-list-3by4/products/RBL/2026/M-RBL26003_3C_1/Women-RBL-PUMA-Home-Jersey-26-27.jpg"
+      ],
+      "liga": "alemania",
+      "equipo": "RB Leipzig"
+    },
+    {
+      "nombre": "RB Leipzig 26-27 Tercero ",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://www.footyheadlines.com/static/img/post/2026/08/26/p3yVGVNqlKJok9g/presentada-la-tercera-camiseta-del-rb-leipzig-26-27.jpg"
+      ],
+      "liga": "alemania",
+      "equipo": "RB Leipzig"
+    },
+    {
+      "nombre": "RB Leipzig 26-27 Visitante",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSleTNic6aIlHzKjZ4zyfnXyP9Qwl5nvlzm_VKmXOIeDI8yA6rUQbl25EbI&s=10"
+      ],
+      "liga": "alemania",
+      "equipo": "RB Leipzig"
+    },
+    {
+      "nombre": "RB Leipzig 25-26 Local",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://mx.cultofutbol.com/medias/1200Wx1200H-NEW-media-gallery-000000000000372538-01-20250806173125.jpg?context=bWFzdGVyfGltYWdlc3w3OTk0NHxpbWFnZS9qcGVnfGFEaG1MMmczTnk4eE5EVTVPRGMwT0Rjd01EY3dNaTh4TWpBd1YzZ3hNakF3U0Y5T1JWZGZiV1ZrYVdGZloyRnNiR1Z5ZVY4d01EQXdNREF3TURBd01EQXpOekkxTXpoZk1ERmZNakF5TlRBNE1EWXhOek14TWpVdWFuQm58YzUxZDZhMzI1MzQ1N2YzMzAxM2M1MzMyN2EwYzJmMTRkZTBjNzI2YTlkM2RiODI4MGQ0NWU4NDkxOGQzMTc4OA"
+      ],
+      "liga": "alemania",
+      "equipo": "RB Leipzig"
+    },
+    {
+      "nombre": "RB Leipzig 25-26 Visitante ",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFceeS4rfQjuKTgvLL-lT4y4c3AfUHYVJkfoxHTUArqQxS3gAhDXIsqYNsJH-MrzeyEdSpope0icH0BLDCQWaX6bIaIy4oWKx-fZ5fIlLzw8ivLs4YlwKe1BAXphtNjC0zJ7WpIXuwNqs7p02NR4NsoPtnXMiVX0oo7rhvbsFFXHV21C8IYKsuKm4mTq2w/s1600/presentacion-de-la-camiseta-visitante-del-rb-leipzig-25-26.jpg"
+      ],
+      "liga": "alemania",
+      "equipo": "RB Leipzig"
+    },
+    {
+      "nombre": "RB Leipzig 25-26 Tercero ",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfQpkWDowokOVHP2usKXaBmzGsxGi7dQOklcnBptODQ1iPseHjH7BdtCEokreyKs28BhJqz0txdmHIc2RDOKIMY91GzDiYEy-6UNidH3IT-BbrgoLdlSDeTEDOZ5bmXgVAVwEzp8ITe4V1GdW-3MnauYtHc-RJy0XGcKaQ8-hMFzt4FfH8lSOgdcmRWroP/s1600/presentada-la-tercera-camiseta-del-rb-leipzig-25-26.jpg"
+      ],
+      "liga": "alemania",
+      "equipo": "RB Leipzig"
+    },
+    {
+      "nombre": "BMG Gladbach 25-26 Local",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://mx.cultofutbol.com/medias/1200Wx1200H-NEW-media-gallery-000000000000372510-05-20250811043320.jpg?context=bWFzdGVyfGltYWdlc3w1MzUzMnxpbWFnZS9qcGVnfGFHVTJMMmhpTWk4eE5EWTJOREF5T0RReU1qRTNOQzh4TWpBd1YzZ3hNakF3U0Y5T1JWZGZiV1ZrYVdGZloyRnNiR1Z5ZVY4d01EQXdNREF3TURBd01EQXpOekkxTVRCZk1EVmZNakF5TlRBNE1URXdORE16TWpBdWFuQm58ODZjMmMwYWEyMGZhYjA1ZWMzODNmY2FmZmExZDViMDJjMzNkMmI3YWJkMWIxNzU4MTVhYTM5YTVhN2FlNmNhZg"
+      ],
+      "liga": "alemania",
+      "equipo": "BMG Gladbach"
+    },
+    {
+      "nombre": "BMG Gladbach 25-26 Tercero",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://mx.cultofutbol.com/medias/1200Wx1200H-NEW-media-gallery-000000000000372510-05-20250811043320.jpg?context=bWFzdGVyfGltYWdlc3w1MzUzMnxpbWFnZS9qcGVnfGFHVTJMMmhpTWk4eE5EWTJOREF5T0RReU1qRTNOQzh4TWpBd1YzZ3hNakF3U0Y5T1JWZGZiV1ZrYVdGZloyRnNiR1Z5ZVY4d01EQXdNREF3TURBd01EQXpOekkxTVRCZk1EVmZNakF5TlRBNE1URXdORE16TWpBdWFuQm58ODZjMmMwYWEyMGZhYjA1ZWMzODNmY2FmZmExZDViMDJjMzNkMmI3YWJkMWIxNzU4MTVhYTM5YTVhN2FlNmNhZg"
+      ],
+      "liga": "alemania",
+      "equipo": "BMG Gladbach"
+    },
+    {
+      "nombre": "BMG Gladbach 24-25 Tercero",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVNYzUITXaULfreIAi8bnD92vA50PO4vrd1e9m26yBlQO8gKerB2BGHtc6gF__rX9y8PNSXQqjaBQV7HwPKtPrCXHLLeu2Uk1Y8GbiV33PewqTqeYH5ExwvSeJ5QxwwHEaLWcMNUwugEeKwyePRgC7HcJnVhoU3oQy4ysX7DNuH0x2Ouo0INLue30xOy8/s1600/lanzamiento-de-la-tercera-camiseta-del-gladbach-24-25.jpg"
+      ],
+      "liga": "alemania",
+      "equipo": "BMG Gladbach"
+    },
+    {
+      "nombre": "Schalke 26-27 Local",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKr_h8EvXNZz8bAXlpbCmfLFmmjkAMhdjfVIYGTrUbh8aeBdL5F5lAcz67exkaGl98mXehsy1E11KHsGq0QRTQjwPWqbC1kn7St_T2_0-AlhdQjtol0MRllevxGebdCY6sESzZFkYjcl-BHv3kiepvHZkvJovCWFscBQHnjs6KQceJwPcg_7RYMwrVDBQ/s1000/presentada-la-camiseta-local-del-schalke-para-la-bundesliga-26-27-25-aniversario-del-veltins-arena.jpg"
+      ],
+      "liga": "alemania",
+      "equipo": "Schalke 04"
+    },
+    {
+      "nombre": "Schalke 26-27 Visitante",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKCodLW6KL2fBOT1cJiwg4Uq-SLyNvkIQNkZuS471doju692p1Bg-fxKA&s=10"
+      ],
+      "liga": "alemania",
+      "equipo": "Schalke 04"
+    },
+    {
+      "nombre": "Schalke 10-11 Local",
+      "precioRetro": "$599",
+      "img": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6hBwoSC5N0CS8pNv8WvaloxoNXsBZcja8sEISTvK5gDEqayrI3zTK4J4&s=10",
+        "https://i.pinimg.com/736x/dd/8c/27/dd8c2798f7ea0e3df44aef13975ebd10.jpg"
+      ],
+      "liga": "alemania",
+      "equipo": "Schalke 04"
+    },
+    {
+      "nombre": "Hamburg 26-27 local",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-EL5ciOEaKiyjHWa_E2-GKx0U_-18ViDFnFu5xbtuHP59ZNcxuKaUjBLfLxpnlh1MvC77o-aIOPzif1YXb_E7Qu1IYQuSR7wtCnB6S4VeFDmEA7cULsdc8SyXIRiriqSugK2Kn_DCo-OT1Ckzc9lYHWqI-nd03uD5sdzs4UnpUZ3yTthrQo4MNwNu1_M/s1600/presentada-la-camiseta-local-del-hamburgo-26-27.jpg"
+      ],
+      "liga": "alemania",
+      "equipo": "Hamburg"
+    },
+    {
+      "nombre": "Hamburg 26-27 Visitante ",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidI4MxpMI5KBbNUeTIKaxOhkpsAkyQqo1l5Smyfvsrrrv4HA-ILUSCzy976mxrYUNL1VOOAs2jPgibexnquo1UJ2OWBlQW1AgARUeMUv2aUMctIIO3PJU6ycHf6AL48_sGgv3VcaEMDWrtxl8pcZsLQ-32CG71sMW9k2SonQLC2i5sys9kboiQG02Whqg/s1600/se-presenta-la-camiseta-visitante-del-hamburgo-26-27.jpg"
+      ],
+      "liga": "alemania",
+      "equipo": "Hamburg"
+    },
+    {
+      "nombre": "Alemania 26 1era Equipación",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://www.innovasport.com/medias/1200Wx1200H-NEW-media-gallery-000000000000394906-01-20251120115830.jpg?context=bWFzdGVyfGltYWdlc3w3MzU4OXxpbWFnZS9qcGVnfGFHVTVMMmd4Tnk4eE5UYzRNekV4TURVd09EVTNOQzh4TWpBd1YzZ3hNakF3U0Y5T1JWZGZiV1ZrYVdGZloyRnNiR1Z5ZVY4d01EQXdNREF3TURBd01EQXpPVFE1TURaZk1ERmZNakF5TlRFeE1qQXhNVFU0TXpBdWFuQm58YjYwZTM2YTIzMGYyZTM4Yjg1NWZhZjU1NDU5MTMxZmJlYWYwYzFmNzVjM2MxZWNmNjllYTdmNTg2ZDk2ZDUyMQ",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAWFozv271r5unNpUlroK_wrwmpNpCyLLwXCzfb9BwDcWRBx37sdaTlrA&s=10"
+      ],
+      "liga": "selecciones",
+      "equipo": "Alemania"
+    },
+    {
+      "nombre": "Alemania 26 2da Equipación",
+      "precioAficion": "$399",
+      "precioJugador": "$499",
+      "img": [
+        "https://assets.adidas.com/images/w_500,f_auto,q_auto/41b4b5f434914c36a5bd5a8a74a2ba46_faec/Jersey_Visitante_Alemania_26_Version_Jugador_Azul_JN2070_db01_laydown.tiff.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYntzJNZxhhLoLvzuYHvD-JSJkGZ4ufpapzciceR2-_CAszamtZtR524X9&s=10"
+      ],
+      "liga": "selecciones",
+      "equipo": "Alemania"
+    },
+    {
+      "nombre": "Alemania 22 2da Equipación",
+      "precioRetro": "$599",
+      "img": [
+        "https://www.innovasport.com/medias/IS-HJ9604-1.jpg?context=bWFzdGVyfGltYWdlc3wxMjc2ODV8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzBZaTlvTVdRdk1URXlNRE0yTXpBNU5UWTFOelF1YW5Cbnw0MzI3MjRjNTdmZTNlZWNiYjFlZGZiZWRlNzg0ZGEyOTAyZmEwMjk0MWQ0OGIyNTBmNmI3NjRlYzVjMWY5OWJj"
+      ],
+      "liga": "selecciones",
+      "equipo": "Alemania"
     }
   ],
   "f1": [
