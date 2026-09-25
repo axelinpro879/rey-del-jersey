@@ -26,7 +26,10 @@ collections:
             summary: "{{nombre}} — {{fields.equipo}}"
             fields:
               - { label: "Nombre", name: "nombre", widget: "string", hint: "Ej: Real Madrid 26/27 Local" }
-              - { label: "Precio (jugador)", name: "precio", widget: "string", hint: "Precio de la versión jugador, con $. El precio de afición se calcula solo restando $100 (ej: $450 -> $350-$450)." }
+              - { label: "Precio afición", name: "precioAficion", widget: "string", required: false, hint: "Ej: $399. Déjalo vacío si esta jersey solo tiene precio retro." }
+              - { label: "Precio jugador", name: "precioJugador", widget: "string", required: false, hint: "Ej: $499. Déjalo vacío si esta jersey solo tiene precio retro." }
+              - { label: "Precio retro (edición vintage)", name: "precioRetro", widget: "string", required: false, hint: "Solo para jerseys retro con un único precio, ej: $599. Si la llenas, se muestra esta en vez de afición/jugador." }
+              - { label: "Precio de oferta (opcional)", name: "precioOferta", widget: "string", required: false, hint: "Si pones un precio aquí, se muestra como el precio final en oferta y se tacha el precio normal de arriba." }
               - label: "Fotos"
                 name: "img"
                 widget: "list"
@@ -67,7 +70,8 @@ collections:
             summary: "{{nombre}}"
             fields:
               - { label: "Nombre", name: "nombre", widget: "string", hint: "Ej: Ferrari 2026 Oficial" }
-              - { label: "Precio (jugador)", name: "precio", widget: "string", hint: "Precio de la versión jugador, con $. El precio de afición se calcula solo restando $100 (ej: $550 -> $450-$550)." }
+              - { label: "Precio", name: "precio", widget: "string", hint: "Ej: $550 (incluye el símbolo $). Ponlo al gusto para cada jersey." }
+              - { label: "Precio de oferta (opcional)", name: "precioOferta", widget: "string", required: false, hint: "Si pones un precio aquí, se muestra como el precio final en oferta y se tacha el precio normal." }
               - label: "Fotos"
                 name: "img"
                 widget: "list"
@@ -98,7 +102,8 @@ collections:
             summary: "{{nombre}}"
             fields:
               - { label: "Nombre", name: "nombre", widget: "string", hint: "Ej: Lakers LeBron James Icon" }
-              - { label: "Precio (jugador)", name: "precio", widget: "string", hint: "Precio de la versión jugador, con $. El precio de afición se calcula solo restando $100 (ej: $650 -> $550-$650)." }
+              - { label: "Precio", name: "precio", widget: "string", hint: "Ej: $650 (incluye el símbolo $). Ponlo al gusto para cada jersey." }
+              - { label: "Precio de oferta (opcional)", name: "precioOferta", widget: "string", required: false, hint: "Si pones un precio aquí, se muestra como el precio final en oferta y se tacha el precio normal." }
               - label: "Fotos"
                 name: "img"
                 widget: "list"

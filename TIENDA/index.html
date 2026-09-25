@@ -898,18 +898,24 @@
         gap: 10px;
     }
 
-    .precio-anterior {
-        font-family: var(--font-mono);
-        font-size: 0.82rem;
-        color: var(--muted);
-        opacity: 0.9;
-    }
-
     .precio {
         font-family: var(--font-mono);
         font-weight: 800;
         font-size: 1.4rem;
         color: var(--acento, var(--navy));
+    }
+
+    .precio-tachado {
+        font-family: var(--font-mono);
+        font-size: 0.9rem;
+        color: var(--muted);
+        text-decoration: line-through;
+        text-decoration-thickness: 1.5px;
+        margin-right: 8px;
+    }
+
+    .precio-oferta {
+        color: var(--rebaja);
     }
 
     .precio-nota {
@@ -919,6 +925,11 @@
         text-transform: uppercase;
         color: var(--muted);
         margin-top: 3px;
+    }
+
+    .precio-nota-oferta {
+        color: var(--rebaja);
+        font-weight: 700;
     }
 
     .foto-count {
@@ -1109,7 +1120,7 @@
 
     .modal-info .precio { font-size: 1.6rem; color: var(--paper); }
 
-    .modal-info .precio-anterior { font-size: 1rem; }
+    .modal-info .precio-tachado { color: var(--paper); opacity: 0.65; }
 
     .modal-info .precio-nota { color: var(--paper); opacity: 0.75; }
 
@@ -1429,11 +1440,7 @@
             <div class="modal-thumbs" id="modalThumbs"></div>
             <div class="modal-info">
                 <div class="nombre" id="modalNombre"></div>
-                <div class="precio-wrap">
-                    <span class="precio-anterior" id="modalPrecioAnterior"></span>
-                    <span class="precio" id="modalPrecio"></span>
-                </div>
-                <div class="precio-nota" id="modalPrecioNota"></div>
+                <div id="modalPrecioBox"></div>
                 <div class="zoom-hint">Rueda o pellizca para zoom · doble clic para restablecer</div>
             </div>
         </div>
@@ -1502,14 +1509,47 @@
     <footer>Rey del Jersey · Hecho para quienes viven el fútbol</footer>
 
     <script>
-        // El precio guardado en el panel es el precio de "jugador" (versión réplica).
-        // El de "afición" se calcula automáticamente restando $100 MXN, para no
-        // tener que cargar dos precios a mano por cada jersey.
-        function calcularRangoPrecio(precioStr) {
-            const numero = parseInt(String(precioStr).replace(/[^0-9]/g, ""), 10);
-            if (isNaN(numero)) return { aficion: precioStr, jugador: precioStr };
-            const aficion = Math.max(numero - 100, 0);
-            return { aficion: "$" + aficion, jugador: "$" + numero };
+        // El precio de cada jersey ahora se captura a mano desde el panel
+        // (afición / jugador / retro, según el caso), sin ningún cálculo
+        // automático — así cada producto puede tener su propio precio.
+        function calcularPrecio(j) {
+            let normal = "";
+            let nota = "";
+            if (j.categoria === "futbol" && (j.precioRetro || j.precioAficion || j.precioJugador)) {
+                if (j.precioRetro) {
+                    normal = j.precioRetro;
+                    nota = "Retro";
+                } else if (j.precioAficion && j.precioJugador) {
+                    normal = j.precioAficion + "–" + j.precioJugador;
+                    nota = "Afición · Jugador";
+                } else {
+                    normal = j.precioAficion || j.precioJugador;
+                    nota = j.precioAficion ? "Afición" : "Jugador";
+                }
+            } else if (j.precio) {
+                // Compatibilidad con productos que aún no se migran al nuevo formato
+                normal = j.precio;
+            }
+            return { normal: normal, nota: nota, oferta: j.precioOferta || "" };
+        }
+
+        // Arma el bloque de precio (y su nota) como HTML, reutilizado por
+        // las tarjetas del catálogo y por el modal de producto.
+        function precioHTML(j) {
+            const p = calcularPrecio(j);
+            let html = '<div class="precio-wrap">';
+            if (p.oferta) {
+                html += '<span class="precio-tachado">' + p.normal + '</span>';
+                html += '<span class="precio precio-oferta">' + p.oferta + '</span>';
+            } else {
+                html += '<span class="precio">' + p.normal + '</span>';
+            }
+            html += '</div>';
+            const notaTexto = p.oferta ? ('¡Oferta!' + (p.nota ? ' · ' + p.nota : '')) : p.nota;
+            if (notaTexto) {
+                html += '<div class="precio-nota' + (p.oferta ? ' precio-nota-oferta' : '') + '">' + notaTexto + '</div>';
+            }
+            return html;
         }
 
         // ---- Fotos del producto (admite 1 o varias) ----
@@ -1567,7 +1607,7 @@
         // ---- Compartir producto (WhatsApp / Instagram) ----
         function compartirProducto(idJersey, event) {
             event.stopPropagation();
-            const j = jerseys.find(x => (x.nombre + x.precio) === idJersey);
+            const j = jerseys.find(x => idDeJersey(x) === idJersey);
             if (!j) return;
             const texto = "Mira este jersey: " + j.nombre + " - " + j.precio + " en Rey del Jersey";
             const fotos = obtenerFotos(j);
@@ -1793,7 +1833,7 @@
         }
 
         function abrirModal(idJersey, evt) {
-            const jersey = jerseys.find(x => (x.nombre + x.precio) === idJersey);
+            const jersey = jerseys.find(x => idDeJersey(x) === idJersey);
             if (!jersey) return;
             // Ancla el punto de origen del modal a la tarjeta que se tocó,
             // para que la imagen parezca "crecer" desde ahí, no aparecer en el centro
@@ -1807,10 +1847,7 @@
             fotosModalActuales = obtenerFotos(jersey);
             document.getElementById("modal").classList.add("active");
             document.getElementById("modalNombre").textContent = jersey.nombre;
-            const rango = calcularRangoPrecio(jersey.precio);
-            document.getElementById("modalPrecio").textContent = rango.aficion + "–" + rango.jugador;
-            document.getElementById("modalPrecioAnterior").textContent = "";
-            document.getElementById("modalPrecioNota").textContent = "Afición · Jugador";
+            document.getElementById("modalPrecioBox").innerHTML = precioHTML(jersey);
             renderModalThumbs();
             mostrarFotoModal(0);
             cambiarTabModal("foto");
@@ -1829,6 +1866,13 @@
             resetZoom();
         }
 
+        // Identificador estable de un jersey (para favoritos, compartir y abrir
+        // el modal) construido con nombre + todos los precios posibles, para
+        // que dos jerseys con el mismo nombre pero precios distintos no choquen.
+        function idDeJersey(j) {
+            return [j.nombre, j.precioAficion, j.precioJugador, j.precioRetro, j.precio, j.precioOferta].join("|");
+        }
+
         function mostrarProductos() {
             let html = "";
             let numero = 0;
@@ -1837,12 +1881,11 @@
                 numero++;
                 if (pasaFiltros(j)) {
                     coincidencias++;
-                    const rango = calcularRangoPrecio(j.precio);
                     const fotos = obtenerFotos(j);
                     const fotoPrincipal = fotos[0] || "";
                     const tag = "Nº " + String(numero).padStart(2, "0");
                     const delay = Math.min(numero * 0.025, 0.5);
-                    const idJersey = j.nombre + j.precio;
+                    const idJersey = idDeJersey(j);
                     const idJerseyEscapado = idJersey.replace(/'/g, "\\'");
                     const favActivo = esFavorito(idJersey) ? "activo" : "";
                     const corazon = esFavorito(idJersey) ? "♥" : "♡";
@@ -1861,10 +1904,7 @@
                     html += '</div>';
                     html += '<div class="item-info">';
                     html += '<div class="nombre">' + j.nombre + '</div>';
-                    html += '<div class="precio-wrap">';
-                    html += '<span class="precio">' + rango.aficion + '&ndash;' + rango.jugador + '</span>';
-                    html += '</div>';
-                    html += '<div class="precio-nota">Afición &middot; Jugador</div>';
+                    html += precioHTML(j);
                     html += '<div class="item-info-bottom">';
                     html += '<button class="compartir-btn" onclick="compartirProducto(\'' + idJersey.replace(/'/g, "\\'") + '\', event)">↗ Compartir</button>';
                     html += '</div>';
